@@ -83,7 +83,7 @@ characters = {
     # ===================================
     
     WAL_democratic_reformer = {
-        name = "Assembly Speaker"
+        name = "Gwion Jenkins"
         portraits = {
             civilian = {
                 small = "GFX_idea_generic_political_advisor_europe_1"
@@ -105,7 +105,7 @@ characters = {
     }
     
     WAL_trade_union_leader = {
-        name = "Trade Union Leader"
+        name = "Dafydd Morgan"
         portraits = {
             civilian = {
                 small = "GFX_idea_generic_political_advisor_europe_2"
@@ -134,7 +134,7 @@ characters = {
     # ===================================
     
     WAL_fascist_demagogue = {
-        name = "Nationalist Demagogue"
+        name = "Owain Rhydderch"
         portraits = {
             civilian = {
                 small = "GFX_idea_generic_political_advisor_europe_3"
@@ -182,7 +182,7 @@ characters = {
     # ===================================
     
     WAL_communist_revolutionary = {
-        name = "Communist Revolutionary"
+        name = "Llew Evans"
         portraits = {
             civilian = {
                 small = "GFX_idea_generic_political_advisor_europe_5"
@@ -204,7 +204,7 @@ characters = {
     }
     
     WAL_miners_delegate = {
-        name = "Miners' Delegate"
+        name = "Will Price"
         portraits = {
             civilian = {
                 small = "GFX_idea_generic_political_advisor_europe_6"
@@ -230,7 +230,7 @@ characters = {
     # ===================================
     
     WAL_royalist_courtier = {
-        name = "Royal Courtier"
+        name = "Heddwyn Prowse"
         portraits = {
             civilian = {
                 large = "GFX_idea_generic_political_advisor_europe_7"
@@ -255,7 +255,7 @@ characters = {
     # ===================================
     
     WAL_captain_of_industry = {
-        name = "Welsh Industrialist"
+        name = "Goronwy Ellis"
         portraits = {
             civilian = {
                 small = "GFX_idea_generic_political_advisor_europe_8"
@@ -274,7 +274,7 @@ characters = {
     }
     
     WAL_war_industrialist = {
-        name = "War Industrialist"
+        name = "Talfryn Hughes"
         portraits = {
             civilian = {
                 small = "GFX_idea_generic_political_advisor_europe_9"
