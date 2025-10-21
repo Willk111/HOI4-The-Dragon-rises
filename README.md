@@ -1,6 +1,6 @@
 # The Dragon Rises (HOI4  Mod)
 ![screenshot](HOI4-The-Dragon-rises/Dragon_rises_logo.png)
-
+test
 # 🏴󠁧󠁢󠁷󠁬󠁳󠁿 THE DRAGON RISES - Independent Wales Mod
 
 A Hearts of Iron IV mod that allows players to experience an independent Wales in 1936, complete with unique national focus trees, decisions, and gameplay paths.
@@ -210,6 +210,6 @@ Bug reports and feedback are welcome! Please report issues with:
 
 ---
 
-**Cymru am byth!** 🏴󠁧󠁢󠁷󠁬󠁳󠁿
+**Good luck and Cymru am byth!** 🏴󠁧󠁢󠁷󠁬󠁳󠁿
 
 *The Dragon Rises - An independent Wales mod for Hearts of Iron IV*
