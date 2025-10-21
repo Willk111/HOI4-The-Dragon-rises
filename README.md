@@ -198,7 +198,7 @@ Bug reports and feedback are welcome! Please report issues with:
 ## Credits
 
 **Created by**: CableTies 
-**HOI4 Version**: 1.13.x
+**HOI4 Version**: 1.13.2
 **Development Status**: Active Development
 
 ---
