@@ -1,0 +1,129 @@
+WAL_democratic_decisions = {
+    icon = generic_political_discourse
+    allowed = { original_tag = WAL }
+}
+
+WAL_communist_decisions = {
+    icon = generic_communism
+    allowed = { original_tag = WAL }
+}
+
+WAL_fascist_decisions = {
+    icon = generic_fascism
+    allowed = { original_tag = WAL }
+}
+
+WAL_monarchist_decisions = {
+    icon = generic_monarchism
+    allowed = { original_tag = WAL }
+}
+
+WAL_industrial_expansion = {
+    icon = generic_industry
+    allowed = { original_tag = WAL }
+}
+
+WAL_seek_uk_investment = {
+    icon = generic_economic_increase
+    allowed = { original_tag = WAL }
+}
+
+WAL_atlantic_trade_network = {
+    icon = generic_goods
+    allowed = { original_tag = WAL }
+}
+
+WAL_fortify_the_homeland = {
+    icon = generic_fortress
+    allowed = { original_tag = WAL }
+}
+
+WAL_democratic_research_initiative = {
+    icon = generic_research
+    allowed = { original_tag = WAL }
+}
+
+WAL_total_nationalization = {
+    icon = generic_industry
+    allowed = { original_tag = WAL }
+}
+
+WAL_soviet_military_cooperation = {
+    icon = generic_communism
+    allowed = { original_tag = WAL }
+}
+
+WAL_export_revolution_britain = {
+    icon = generic_propaganda
+    allowed = { original_tag = WAL }
+}
+
+WAL_peoples_army_mobilization = {
+    icon = generic_manpower
+    allowed = { original_tag = WAL }
+}
+
+WAL_communist_research_collective = {
+    icon = generic_research
+    allowed = { original_tag = WAL }
+}
+
+WAL_total_war_economy = {
+    icon = generic_production
+    allowed = { original_tag = WAL }
+}
+
+WAL_german_military_alliance = {
+    icon = generic_fascism
+    allowed = { original_tag = WAL }
+}
+
+WAL_celtic_empire_formation = {
+    icon = generic_nationalism
+    allowed = { original_tag = WAL }
+}
+
+WAL_druidic_legions = {
+    icon = generic_manpower
+    allowed = { original_tag = WAL }
+}
+
+WAL_conquest_of_england = {
+    icon = generic_prepare_civil_war
+    allowed = { original_tag = WAL }
+}
+
+WAL_form_celtic_union = {
+    icon = generic_nationalism
+    allowed = { original_tag = WAL }
+}
+
+WAL_french_technological_exchange = {
+    icon = generic_research
+    allowed = { original_tag = WAL }
+}
+
+WAL_royal_army_expansion = {
+    icon = generic_manpower
+    allowed = { original_tag = WAL }
+}
+
+WAL_claim_british_throne = {
+    icon = generic_nationalism
+    allowed = { original_tag = WAL }
+}
+
+WAL_mass_industrialization = {
+    icon = generic_construction
+    allowed = { original_tag = WAL }
+}
+
+WAL_military_industrial_complex = {
+    icon = generic_production
+    allowed = { original_tag = WAL }
+}
+
+WAL_coal_empire = {
+    icon = generic_industry
+    allowed = { original_tag = WAL }
+}

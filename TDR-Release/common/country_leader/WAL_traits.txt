@@ -1,0 +1,11 @@
+leader_traits = {
+    Royalist_advocate = {
+        random = no
+        sprite = 13
+        neutrality_drift = 0.05
+    }
+}
+```
+
+# This gives +0.03 daily Non-Aligned support (which is +3% per 100 days, similar to other ideology drift traits)
+

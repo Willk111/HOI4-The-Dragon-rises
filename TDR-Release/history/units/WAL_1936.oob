@@ -1,0 +1,91 @@
+division_template = {
+    name = "Welsh Infantry Division"
+    
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Welsh Militia"
+    
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+    }
+}
+
+units = {
+    division = {
+        name = "1st Welsh Infantry Division"
+        location = 122
+        division_template = "Welsh Infantry Division"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.8
+    }
+    
+    division = {
+        name = "2nd Welsh Infantry Division"
+        location = 122
+        division_template = "Welsh Infantry Division"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+    
+    division = {
+        name = "Cardiff Militia"
+        location = 122
+        division_template = "Welsh Militia"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
+    }
+    
+    division = {
+        name = "Swansea Militia"
+        location = 122
+        division_template = "Welsh Militia"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
+    }
+}
+
+### Starting Air Forces
+air_wings = {
+    122 = {
+        fighter_equipment_0 = {
+            owner = "WAL"
+            amount = 24
+        }
+    }
+}
+
+### Starting Navy - Minimal coastal defense
+units = {
+    fleet = {
+        name = "Royal Welsh Navy"
+        naval_base = 122
+        task_force = {
+            name = "Welsh Patrol Squadron"
+            location = 122
+            ship = { name = "HMS Dragon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = WAL } } }
+            ship = { name = "HMS Cymru" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = WAL } } }
+            ship = { name = "HMS Cardiff" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = WAL } } }
+        }
+    }
+}
