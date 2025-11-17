@@ -1,0 +1,118 @@
+capital = 122
+oob = "WAL_1936"
+set_research_slots = 3
+set_convoys = 20
+
+set_technology = {
+    # land
+    infantry_weapons = 1
+    tech_trucks = 1
+    fuel_silos = 1
+
+    # industry
+    tech_trucks = 1
+    fuel_silos = 1
+    basic_train = 1
+
+
+    # sea
+    early_destroyer = 1
+    early_light_cruiser = 1
+    early_submarine = 1
+    transport = 1
+
+    marines = 1
+}
+
+buildings = {
+    innfrastructure = 1
+    industrial_complex = 2
+    air_base = 1
+    dockyard = 1
+    arms_factory = 1
+}
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1936.1.1"
+    election_frequency = 24
+    elections_allowed = yes
+}
+
+set_popularities = {
+    democratic = 93
+    fascism = 3
+    communism = 4
+}
+
+add_ideas = {
+    WAL_independent_spirit
+    WAL_coal_mining_tradition
+}
+
+# Country Leaders
+create_country_leader = {
+    name = "Alun Meredydd"
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+    expire = "1965.1.1"
+    ideology = liberalism
+    traits = {}
+}
+create_country_leader = {
+    name = "Cynan Coch"
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+    expire = "1965.1.1"
+    ideology = fascism_ideology
+    traits = {}
+}
+create_country_leader = {
+    name = "Emrys Cadarn"
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+    expire = "1965.1.1"
+    ideology = marxism
+    traits = {}
+}
+create_country_leader = {
+    name = "King Owain IV"
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+    expire = "1965.1.1"
+    ideology = despotism
+    traits = {}
+}
+
+# Political Advisors
+recruit_character = WAL_democratic_reformer
+recruit_character = WAL_trade_union_leader
+recruit_character = WAL_captain_of_industry
+recruit_character = WAL_war_industrialist
+recruit_character = WAL_silent_workhorse
+recruit_character = WAL_smooth_talking_charmer
+recruit_character = WAL_royalist_courtier
+
+# Army Chiefs
+recruit_character = WAL_army_chief_offensive
+recruit_character = WAL_army_chief_defensive
+recruit_character = WAL_army_chief_organizational_2
+
+# Navy Chiefs
+recruit_character = WAL_navy_chief_decisive_battle
+recruit_character = WAL_navy_chief_commerce_raiding
+
+# Air Chiefs
+recruit_character = WAL_air_chief_all_weather
+recruit_character = WAL_air_chief_ground_support
+recruit_character = WAL_air_chief_night_operations_1
+
+# High Command
+recruit_character = WAL_army_infantry
+recruit_character = WAL_army_commando_2
+recruit_character = WAL_army_artillery_3
+recruit_character = WAL_air_air_superiority
+recruit_character = WAL_navy_capital_ship
+recruit_character = WAL_navy_submarine_3
+recruit_character = WAL_air_close_air_support_2
+
+# Theorists
+recruit_character = WAL_military_theorist
+recruit_character = WAL_air_theorist
+recruit_character = WAL_artillery_technician
