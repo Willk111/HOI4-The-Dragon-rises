@@ -1,0 +1,933 @@
+ideas = {
+
+    # ================================
+    # STARTING IDEAS
+    # ================================
+    
+    country = {
+        
+        WAL_independent_spirit = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            
+            picture = generic_independence_idea
+            
+            modifier = {
+                stability_factor = 0.05
+                political_power_gain = 0.10
+                resistance_growth = 0.10
+            }
+        }
+        
+        WAL_coal_mining_tradition = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            
+            picture = generic_production_bonus
+            
+            modifier = {
+                production_speed_buildings_factor = 0.05
+                local_resources_factor = 0.10
+                industrial_capacity_factory = 0.05
+            }
+        }
+        
+        
+        WAL_industrial_powerhouse = {
+            allowed = { original_tag = WAL }
+            picture = generic_production_bonus
+            modifier = {
+                production_factory_max_efficiency_factor = 0.15
+                industrial_capacity_factory = 0.10
+                line_change_production_efficiency_factor = 0.10
+            }
+        }
+
+        # ================================
+        # DEMOCRATIC PATH IDEAS
+        # ================================
+        
+        WAL_a_democratic_mandate = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = democratic
+            }
+            removal_cost = -1
+            
+            picture = generic_democratic_drift_bonus
+            
+            modifier = {
+                political_power_gain = 0.50
+                stability_factor = 0.05
+                democratic_drift = 0.05
+            }
+        }
+        
+        WAL_welsh_national_assembly = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = democratic
+            }
+            removal_cost = -1
+            
+            picture = generic_parliament
+            
+            modifier = {
+                political_power_gain = 0.10
+                stability_factor = 0.05
+                industrial_capacity_factory = 0.05
+            }
+        }
+        
+        WAL_trade_union_pact = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = democratic
+            }
+            removal_cost = -1
+            
+            picture = generic_production_bonus
+            
+            modifier = {
+                production_factory_max_efficiency_factor = 0.05
+                production_speed_dockyard_factor = 0.05
+                consumer_goods_factor = 0.03
+            }
+        }
+        
+        WAL_british_investment_program = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = democratic
+            }
+            removal_cost = -1
+            
+            picture = generic_foreign_capital
+            
+            modifier = {
+                production_speed_buildings_factor = 0.15
+                industrial_capacity_factory = 0.10
+                industrial_capacity_dockyard = 0.10
+            }
+        }
+        
+        WAL_atlantic_trade_dominance = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = democratic
+            }
+            removal_cost = -1
+            
+            picture = generic_navy_bonus
+            
+            modifier = {
+                production_speed_dockyard_factor = 0.15
+                industrial_capacity_dockyard = 0.15
+                convoy_escort_efficiency = 0.10
+                trade_opinion_factor = 0.25
+            }
+        }
+        
+        WAL_democratic_scientific_advancement = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = democratic
+            }
+            removal_cost = -1
+            
+            picture = generic_research_bonus
+            
+            modifier = {
+                research_speed_factor = 0.10
+                production_speed_buildings_factor = 0.05
+            }
+        }
+        
+        WAL_homegrown_industry = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = democratic
+            }
+            removal_cost = -1
+            
+            picture = generic_production_bonus
+            
+            modifier = {
+                production_speed_buildings_factor = 0.10
+                local_resources_factor = 0.15
+            }
+        }
+        
+        WAL_defend_the_west = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = democratic
+            }
+            removal_cost = -1
+            
+            picture = generic_fortify_the_borders
+            
+            modifier = {
+                army_defence_factor = 0.05
+                dig_in_speed_factor = 0.15
+                max_dig_in_factor = 0.10
+            }
+        }
+        
+        # ================================
+        # COMMUNIST PATH IDEAS
+        # ================================
+        
+        WAL_red_dragon_rising = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_communist_revolutionary_wave
+            
+            modifier = {
+                stability_factor = -0.05
+                political_power_gain = 0.75
+                communism_drift = 0.10
+            }
+        }
+        
+        WAL_workers_councils = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_production_bonus
+            
+            modifier = {
+                production_factory_max_efficiency_factor = 0.10
+                production_speed_dockyard_factor = 0.10
+                consumer_goods_factor = 0.05
+                industrial_capacity_factory = 0.10
+            }
+        }
+        
+        WAL_welsh_soviet_pact = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_communism_drift_bonus
+            
+            modifier = {
+                generate_wargoal_tension = -0.25
+                lend_lease_tension = -0.50
+                army_org_factor = 0.05
+            }
+        }
+        
+        WAL_miners_revolution = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_manpower_bonus
+            
+            modifier = {
+                local_resources_factor = 0.10
+                production_speed_arms_factory_factor = 0.10
+                stability_factor = -0.05
+                conscription_factor = 0.05
+            }
+        }
+        
+        WAL_total_state_control = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_central_management
+            
+            modifier = {
+                production_factory_max_efficiency_factor = 0.15
+                industrial_capacity_factory = 0.20
+                stability_factor = -0.05
+                consumer_goods_factor = -0.05
+            }
+        }
+        
+        WAL_export_the_revolution = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_communist_revolutionary_wave
+            
+            modifier = {
+                send_volunteer_divisions_required = -0.50
+                send_volunteers_tension = -0.50
+            }
+        }
+        
+        WAL_welsh_internationale = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_communism_drift_bonus
+            
+            modifier = {
+                stability_factor = 0.10
+                political_power_gain = 0.15
+                faction_trade_opinion_factor = 0.30
+            }
+        }
+        
+        WAL_a_peoples_army = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_manpower_bonus
+            
+            modifier = {
+                army_attack_factor = 0.05
+                mobilization_speed = 0.10
+                conscription = 0.03
+                training_time_army_factor = -0.10
+            }
+        }
+        
+        WAL_soviet_industrial_advisors = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_spy_intel_exchange
+            
+            modifier = {
+                production_speed_arms_factory_factor = 0.10
+                industrial_capacity_factory = 0.10
+                research_speed_factor = 0.05
+            }
+        }
+        
+        WAL_peoples_militia = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_manpower_bonus
+            
+            modifier = {
+                conscription_factor = 0.10
+                army_morale_factor = 0.10
+                training_time_army_factor = -0.15
+            }
+        }
+        
+        WAL_socialist_science_program = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = communism
+            }
+            removal_cost = -1
+            
+            picture = generic_research_bonus
+            
+            modifier = {
+                research_speed_factor = 0.08
+                industrial_capacity_factory = 0.05
+            }
+        }
+        
+        # ================================
+        # FASCIST PATH IDEAS
+        # ================================
+        
+        WAL_rise_of_the_dragon = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_fascism_drift_bonus
+            
+            modifier = {
+                political_power_gain = 1.00
+                stability_factor = 0.05
+                fascism_drift = 0.10
+            }
+        }
+        
+        WAL_purging_british_influence = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_purge
+            
+            modifier = {
+                stability_factor = -0.05
+                political_power_gain = 0.75
+                war_support_factor = 0.10
+                drift_defence_factor = 0.30
+            }
+        }
+        
+        WAL_cymru_for_the_cymry = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_manpower_bonus
+            
+            modifier = {
+                conscription = 0.05
+                stability_factor = 0.05
+                war_support_factor = 0.05
+            }
+        }
+        
+        WAL_revive_the_druidic_order = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_religious_idea
+            
+            modifier = {
+                army_org_regain = 0.05
+                resistance_growth_on_our_occupied_states = -0.10
+                compliance_growth = 0.10
+                army_morale_factor = 0.10
+            }
+        }
+        
+        WAL_march_on_england = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_attack_bonus
+            
+            modifier = {
+                army_core_attack_factor = 0.10
+                army_core_defence_factor = 0.10
+                conscription_factor = 0.05
+            }
+        }
+        
+        WAL_pact_with_berlin = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_german_treaty
+            
+            modifier = {
+                production_speed_arms_factory_factor = 0.10
+                industrial_capacity_factory = 0.10
+                research_speed_factor = 0.05
+            }
+        }
+        
+        WAL_dominance_of_celtic_isles = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_acquire_tanks
+            
+            modifier = {
+                production_speed_dockyard_factor = 0.10
+                conscription = 0.03
+                justify_war_goal_time = -0.25
+            }
+        }
+        
+        WAL_the_welsh_war_machine = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_production_bonus
+            
+            modifier = {
+                production_speed_arms_factory_factor = 0.15
+                line_change_production_efficiency_factor = 0.10
+                production_factory_start_efficiency_factor = 0.10
+                army_speed_factor = 0.05
+                equipment_conversion_speed = 0.10
+            }
+        }
+        
+        WAL_total_militarization = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_war_preparation
+            
+            modifier = {
+                production_speed_arms_factory_factor = 0.20
+                industrial_capacity_factory = 0.15
+                conscription_factor = 0.10
+                consumer_goods_factor = -0.05
+            }
+        }
+        
+        WAL_celtic_imperial_spirit = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_victors_of_ww1
+            
+            modifier = {
+                stability_factor = 0.10
+                war_support_factor = 0.15
+                army_org_factor = 0.10
+                conscription = 0.05
+            }
+        }
+        
+        WAL_english_conquest_spirit = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = fascism
+            }
+            removal_cost = -1
+            
+            picture = generic_morale_bonus
+            
+            modifier = {
+                offence = 0.15
+                breakthrough_factor = 0.10
+                army_morale_factor = 0.15
+            }
+        }
+        
+        # ================================
+        # MONARCHIST PATH IDEAS
+        # ================================
+        
+        WAL_return_of_the_true_king = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = neutrality
+            }
+            removal_cost = -1
+            
+            picture = generic_monarchist_idea
+            
+            modifier = {
+                political_power_gain = 0.50
+                stability_factor = 0.10
+                war_support_factor = 0.05
+            }
+        }
+        
+        WAL_court_of_cymru = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = neutrality
+            }
+            removal_cost = -1
+            
+            picture = generic_pp_unity_bonus
+            
+            modifier = {
+                consumer_goods_factor = -0.05
+                political_advisor_cost_factor = -0.10
+                trade_laws_cost_factor = -0.25
+            }
+        }
+        
+        WAL_new_arthurian_age = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = neutrality
+            }
+            removal_cost = -1
+            
+            picture = generic_the_giant_wakes
+            
+            modifier = {
+                conscription = 0.02
+                stability_factor = 0.05
+                war_support_factor = 0.05
+                army_morale_factor = 0.05
+            }
+        }
+        
+        WAL_the_celtic_crown = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = neutrality
+            }
+            removal_cost = -1
+            
+            picture = generic_monarchist_idea
+            
+            modifier = {
+                political_power_gain = 0.15
+                improve_relations_maintain_cost_factor = -0.30
+                faction_trade_opinion_factor = 0.25
+            }
+        }
+        
+        WAL_a_kings_army = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = neutrality
+            }
+            removal_cost = -1
+            
+            picture = generic_manpower_bonus
+            
+            modifier = {
+                army_org_factor = 0.05
+                army_attack_factor = 0.05
+                cavalry_attack_factor = 0.10
+                experience_gain_army_factor = 0.10
+            }
+        }
+        
+        WAL_royal_treaty_france = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = neutrality
+            }
+            removal_cost = -1
+            
+            picture = generic_foreign_capital
+            
+            modifier = {
+                production_speed_arms_factory_factor = 0.10
+                lend_lease_tension = -0.50
+                send_volunteers_tension = -0.25
+            }
+        }
+        
+        WAL_restoring_marcher_borders = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = neutrality
+            }
+            removal_cost = -1
+            
+            picture = generic_acquire_tanks
+            
+            modifier = {
+                war_support_factor = 0.10
+                justify_war_goal_time = -0.20
+                annex_cost_factor = -0.25
+            }
+        }
+        
+        WAL_britannias_true_heir = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = neutrality
+            }
+            removal_cost = -1
+            
+            picture = generic_victors_of_ww1
+            
+            modifier = {
+                army_core_attack_factor = 0.10
+                army_core_defence_factor = 0.10
+                conscription_factor = 0.10
+            }
+        }
+        
+        WAL_celtic_union_spirit = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = neutrality
+            }
+            removal_cost = -1
+            
+            picture = generic_victors_of_ww1
+            
+            modifier = {
+                stability_factor = 0.15
+                war_support_factor = 0.10
+                political_power_gain = 0.20
+                army_org_factor = 0.10
+                industrial_capacity_factory = 0.15
+            }
+        }
+        
+        WAL_rightful_heir_of_britain = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                has_government = neutrality
+            }
+            removal_cost = -1
+            
+            picture = generic_morale_bonus
+            
+            modifier = {
+                war_support_factor = 0.20
+                stability_factor = 0.10
+                army_morale_factor = 0.15
+                offence = 0.15
+                army_org_factor = 0.10
+            }
+        }
+        
+        # ================================
+        # REJOIN IDEAS
+        # ================================
+
+        WAL_economic_integration = {
+            picture = GFX_idea_generic_production_bonus
+            
+            allowed = { original_tag = WAL }
+            
+            modifier = {
+                consumer_goods_factor = -0.05
+                production_speed_industrial_complex_factor = 0.10
+            }
+        }
+        
+        WAL_military_cooperation = {
+            picture = GFX_idea_generic_army_war_college
+            
+            allowed = { original_tag = WAL }
+            
+            modifier = {
+                army_org_factor = 0.05
+                training_time_factor = -0.10
+                army_morale_factor = 0.05
+            }
+        }
+        
+        WAL_dominion_status = {
+            picture = GFX_idea_generic_victors_of_ww1
+            
+            allowed = { original_tag = WAL }
+            
+            modifier = {
+                autonomy_gain = -0.5
+                political_power_gain = -0.25
+                stability_factor = -0.05
+            }
+        }
+        
+        WAL_royal_navy_protection = {
+            picture = GFX_idea_generic_navy_bonus
+            
+            allowed = { original_tag = WAL }
+            
+            modifier = {
+                convoy_escort_efficiency = 0.20
+                convoy_raiding_efficiency_against_us = -0.30
+                naval_has_potf_in_combat_attack = 0.05
+            }
+        }
+        
+        WAL_imperial_resources = {
+            picture = GFX_idea_generic_goods_red_bonus
+            
+            allowed = { original_tag = WAL }
+            
+            modifier = {
+                local_resources_factor = 0.20
+                production_speed_buildings_factor = 0.10
+            }
+        }
+        
+        WAL_commonwealth_arsenal = {
+            picture = GFX_idea_generic_production_bonus
+            
+            allowed = { original_tag = WAL }
+            
+            modifier = {
+                production_speed_arms_factory_factor = 0.15
+                industrial_capacity_factory = 0.10
+                lend_lease_tension = -0.25
+            }
+        }
+        
+        WAL_united_we_stand = {
+            picture = GFX_idea_generic_allies_build_infantry
+            
+            allowed = { original_tag = WAL }
+            
+            modifier = {
+                stability_factor = 0.10
+                war_support_factor = 0.10
+                army_core_attack_factor = 0.05
+                army_core_defence_factor = 0.05
+                autonomy_gain = 0.5
+            }
+        }
+
+        # ================================
+        # GENERAL IDEAS
+        # ================================
+        
+        WAL_welsh_culture = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            
+            picture = generic_infantry_bonus
+            
+            modifier = {
+                stability_factor = 0.05
+                war_support_factor = 0.03
+                drift_defence_factor = 0.15
+            }
+        }
+        
+        WAL_communist_agitation = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            
+            picture = generic_communist_revolutionary_wave
+            
+            modifier = {
+                stability_factor = -0.10
+                communism_drift = 0.05
+                political_power_gain = -0.10
+            }
+        }
+    }
+}

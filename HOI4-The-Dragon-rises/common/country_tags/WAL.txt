@@ -1,1 +1,0 @@
-WAL = "countries/WAL.txt"

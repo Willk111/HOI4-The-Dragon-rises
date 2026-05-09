@@ -1,0 +1,19 @@
+spriteTypes = {
+	spriteType = { name = "GFX_loading_wales_01" texturefile = "gfx/loadingscreens/ls1.dds" }
+	spriteType = { name = "GFX_loading_wales_02" texturefile = "gfx/loadingscreens/ls2.dds" }
+	spriteType = { name = "GFX_loading_wales_03" texturefile = "gfx/loadingscreens/ls3.dds" }
+	spriteType = { name = "GFX_loading_wales_04" texturefile = "gfx/loadingscreens/ls4.dds" }
+	spriteType = { name = "GFX_loading_wales_05" texturefile = "gfx/loadingscreens/ls5.dds" }
+	spriteType = { name = "GFX_loading_wales_06" texturefile = "gfx/loadingscreens/ls6.dds" }
+	spriteType = { name = "GFX_loading_wales_07" texturefile = "gfx/loadingscreens/ls7.dds" }
+	spriteType = { name = "GFX_loading_wales_08" texturefile = "gfx/loadingscreens/ls8.dds" }
+	spriteType = { name = "GFX_loading_wales_09" texturefile = "gfx/loadingscreens/ls9.dds" }
+	spriteType = { name = "GFX_loading_wales_10" texturefile = "gfx/loadingscreens/ls10.dds" }
+	spriteType = { name = "GFX_loading_wales_11" texturefile = "gfx/loadingscreens/ls11.dds" }
+	spriteType = { name = "GFX_loading_wales_12" texturefile = "gfx/loadingscreens/ls12.dds" }
+	spriteType = { name = "GFX_loading_wales_13" texturefile = "gfx/loadingscreens/ls13.dds" }
+	spriteType = { name = "GFX_loading_wales_14" texturefile = "gfx/loadingscreens/ls14.dds" }
+	spriteType = { name = "GFX_loading_wales_15" texturefile = "gfx/loadingscreens/ls15.dds" }
+	spriteType = { name = "GFX_loading_wales_16" texturefile = "gfx/loadingscreens/ls16.dds" }
+	spriteType = { name = "GFX_loading_wales_17" texturefile = "gfx/loadingscreens/ls17.dds" }
+}

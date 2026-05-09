@@ -1,0 +1,911 @@
+# WALES DECISIONS - PATH TO SUPERPOWER
+
+# ================================
+# DECISION CATEGORIES
+# ================================
+
+WAL_democratic_decisions = {
+    icon = GFX_decision_category_generic_democracy
+    
+    allowed = {
+        original_tag = WAL
+    }
+    
+    visible = {
+        has_government = democratic
+    }
+}
+
+WAL_communist_decisions = {
+    icon = GFX_decision_category_generic_communism
+    
+    allowed = {
+        original_tag = WAL
+    }
+    
+    visible = {
+        has_government = communism
+    }
+}
+
+WAL_fascist_decisions = {
+    icon = GFX_decision_category_generic_fascism
+    
+    allowed = {
+        original_tag = WAL
+    }
+    
+    visible = {
+        has_government = fascism
+    }
+}
+
+WAL_monarchist_decisions = {
+    icon = GFX_decision_category_generic_monarchism
+    
+    allowed = {
+        original_tag = WAL
+    }
+    
+    visible = {
+        has_government = neutrality
+    }
+}
+
+WAL_industrial_expansion = {
+    icon = GFX_decision_category_generic_industry
+    
+    allowed = {
+        original_tag = WAL
+    }
+    
+    visible = {
+        original_tag = WAL
+    }
+}
+
+# ================================
+# DEMOCRATIC PATH DECISIONS
+# ================================
+
+WAL_seek_uk_investment = {
+    icon = GFX_decision_generic_agreement
+    
+    available = {
+        has_government = democratic
+        has_completed_focus = WAL_allies_in_london
+        NOT = { has_war_with = ENG }
+    }
+    
+    visible = {
+        has_government = democratic
+    }
+    
+    cost = 100
+    days_remove = 180
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 100
+    }
+    
+    complete_effect = {
+        add_political_power = -100
+    }
+    
+    remove_effect = {
+        add_offsite_building = { type = industrial_complex level = 8 }
+        add_offsite_building = { type = arms_factory level = 4 }
+        random_owned_controlled_state = {
+            limit = { is_core_of = WAL }
+            add_building_construction = {
+                type = infrastructure
+                level = 3
+                instant_build = yes
+            }
+            add_extra_state_shared_building_slots = 3
+        }
+        ENG = {
+            add_opinion_modifier = { target = WAL modifier = large_increase }
+        }
+        add_ideas = WAL_british_investment_program
+    }
+}
+
+WAL_atlantic_trade_network = {
+    icon = GFX_decision_generic_trade
+    
+    available = {
+        has_government = democratic
+        has_completed_focus = WAL_atlantic_diplomacy
+    }
+    
+    visible = {
+        has_government = democratic
+    }
+    
+    cost = 75
+    days_remove = 120
+    
+    ai_will_do = {
+        factor = 50
+    }
+    
+    remove_effect = {
+        add_offsite_building = { type = dockyard level = 2 }
+        add_ideas = WAL_atlantic_trade_dominance
+        random_owned_controlled_state = {
+            limit = { is_core_of = WAL }
+            add_building_construction = {
+                type = naval_base
+                level = 3
+                province = {
+                    all_provinces = yes
+                    limit_to_border = yes
+                }
+                instant_build = yes
+            }
+        }
+    }
+}
+
+WAL_fortify_the_homeland = {
+    icon = GFX_decision_fortify_the_borders
+    
+    available = {
+        has_government = democratic
+        has_completed_focus = WAL_defend_the_west
+    }
+    
+    visible = {
+        has_government = democratic
+    }
+    
+    cost = 100
+    days_remove = 90
+    
+    ai_will_do = {
+        factor = 30
+    }
+    
+    remove_effect = {
+        every_owned_state = {
+            limit = { 
+                is_core_of = WAL
+            }
+            add_building_construction = {
+                type = bunker
+                province = {
+                    all_provinces = yes
+                    limit_to_border = yes
+                }
+                level = 5
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = coastal_bunker
+                province = {
+                    all_provinces = yes
+                    limit_to_border = yes
+                }
+                level = 5
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = anti_air_building
+                level = 3
+                instant_build = yes
+            }
+        }
+    }
+}
+
+WAL_democratic_research_initiative = {
+    icon = GFX_decision_generic_research
+    
+    available = {
+        has_government = democratic
+        has_completed_focus = WAL_welsh_national_assembly
+    }
+    
+    visible = {
+        has_government = democratic
+    }
+    
+    cost = 150
+    days_remove = 180
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 100
+    }
+    
+    remove_effect = {
+        add_research_slot = 1
+        add_ideas = WAL_democratic_scientific_advancement
+    }
+}
+
+# ================================
+# COMMUNIST PATH DECISIONS
+# ================================
+
+WAL_total_nationalization = {
+    icon = GFX_decision_generic_industry
+    
+    available = {
+        has_government = communism
+        has_completed_focus = WAL_break_chains_of_capital
+    }
+    
+    visible = {
+        has_government = communism
+    }
+    
+    cost = 200
+    days_remove = 240
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 100
+    }
+    
+    remove_effect = {
+        every_owned_state = {
+            limit = { is_core_of = WAL }
+            add_extra_state_shared_building_slots = 4
+        }
+        add_offsite_building = { type = industrial_complex level = 10 }
+        add_offsite_building = { type = arms_factory level = 8 }
+        add_ideas = WAL_total_state_control
+    }
+}
+
+WAL_soviet_military_cooperation = {
+    icon = GFX_decision_generic_tank
+    
+    available = {
+        has_government = communism
+        has_completed_focus = WAL_welsh_soviet_pact
+        SOV = { has_government = communism }
+    }
+    
+    visible = {
+        has_government = communism
+    }
+    
+    cost = 100
+    days_remove = 120
+    
+    ai_will_do = {
+        factor = 50
+    }
+    
+    remove_effect = {
+        SOV = {
+            send_equipment = {
+                target = WAL
+                type = infantry_equipment
+                amount = 5000
+            }
+            send_equipment = {
+                target = WAL
+                type = artillery_equipment
+                amount = 500
+            }
+        }
+        add_tech_bonus = {
+            name = armor_tech_bonus
+            bonus = 1.0
+            uses = 2
+            category = armor
+        }
+        add_ideas = WAL_soviet_industrial_advisors
+    }
+}
+
+WAL_export_revolution_britain = {
+    icon = GFX_decision_generic_prepare_civil_war
+    
+    available = {
+        has_government = communism
+        has_completed_focus = WAL_export_the_revolution
+        ENG = { exists = yes }
+    }
+    
+    visible = {
+        has_government = communism
+    }
+    
+    cost = 200
+    days_remove = 360
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 25
+    }
+    
+    remove_effect = {
+        ENG = {
+            add_stability = -0.15
+            add_war_support = -0.10
+            set_politics = {
+                ruling_party = communism
+                elections_allowed = no
+            }
+        }
+        create_wargoal = {
+            type = puppet_wargoal_focus
+            target = ENG
+        }
+    }
+}
+
+WAL_peoples_army_mobilization = {
+    icon = GFX_decision_generic_prepare_civil_war
+    
+    available = {
+        has_government = communism
+        has_completed_focus = WAL_a_peoples_army
+    }
+    
+    visible = {
+        has_government = communism
+    }
+    
+    cost = 75
+    days_remove = 60
+    
+    ai_will_do = {
+        factor = 40
+    }
+    
+    remove_effect = {
+        add_manpower = 50000
+        add_ideas = WAL_peoples_militia
+        division_template = {
+            name = "Welsh People's Army"
+            regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+                infantry = { x = 1 y = 2 }
+                infantry = { x = 2 y = 0 }
+                infantry = { x = 2 y = 1 }
+                infantry = { x = 2 y = 2 }
+            }
+            support = {
+                artillery = { x = 0 y = 0 }
+            }
+        }
+        capital_scope = {
+            create_unit = {
+                division = "name = \"1st People's Army\" division_template = \"Welsh People's Army\" start_experience_factor = 0.5"
+                owner = WAL
+            }
+            create_unit = {
+                division = "name = \"2nd People's Army\" division_template = \"Welsh People's Army\" start_experience_factor = 0.5"
+                owner = WAL
+            }
+            create_unit = {
+                division = "name = \"3rd People's Army\" division_template = \"Welsh People's Army\" start_experience_factor = 0.5"
+                owner = WAL
+            }
+        }
+    }
+}
+
+WAL_communist_research_collective = {
+    icon = GFX_decision_generic_research
+    
+    available = {
+        has_government = communism
+        has_completed_focus = WAL_workers_councils
+    }
+    
+    visible = {
+        has_government = communism
+    }
+    
+    cost = 150
+    days_remove = 180
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 100
+    }
+    
+    remove_effect = {
+        add_research_slot = 1
+        add_ideas = WAL_socialist_science_program
+    }
+}
+
+# ================================
+# FASCIST PATH DECISIONS
+# ================================
+
+WAL_total_war_economy = {
+    icon = GFX_decision_generic_industry
+    
+    available = {
+        has_government = fascism
+        has_completed_focus = WAL_the_welsh_war_machine
+    }
+    
+    visible = {
+        has_government = fascism
+    }
+    
+    cost = 150
+    days_remove = 240
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 100
+    }
+    
+    remove_effect = {
+        add_offsite_building = { type = arms_factory level = 15 }
+        every_owned_state = {
+            limit = { is_core_of = WAL }
+            add_extra_state_shared_building_slots = 3
+        }
+        add_ideas = WAL_total_militarization
+    }
+}
+
+WAL_german_military_alliance = {
+    icon = GFX_decision_generic_tank
+    
+    available = {
+        has_government = fascism
+        has_completed_focus = WAL_pact_with_berlin
+        GER = { has_government = fascism }
+    }
+    
+    visible = {
+        has_government = fascism
+    }
+    
+    cost = 100
+    days_remove = 120
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 75
+    }
+    
+    remove_effect = {
+        add_offsite_building = { type = arms_factory level = 5 }
+        GER = {
+            send_equipment = {
+                target = WAL
+                type = infantry_equipment
+                amount = 7500
+            }
+        }
+        add_tech_bonus = {
+            name = armor_tech_bonus
+            bonus = 1.0
+            uses = 3
+            category = armor
+        }
+        add_tech_bonus = {
+            name = air_tech_bonus
+            bonus = 1.0
+            uses = 2
+            category = light_air
+        }
+    }
+}
+
+WAL_celtic_empire_formation = {
+    icon = GFX_decision_generic_prepare_civil_war
+    
+    available = {
+        has_government = fascism
+        has_completed_focus = WAL_dominance_of_celtic_isles
+        OR = {
+            SCO = { is_subject_of = WAL }
+            IRE = { is_subject_of = WAL }
+        }
+    }
+    
+    visible = {
+        has_government = fascism
+    }
+    
+    cost = 200
+    days_remove = 90
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 100
+    }
+    
+    remove_effect = {
+        set_cosmetic_tag = WAL_celtic_empire
+        add_stability = 0.10
+        add_war_support = 0.15
+        add_ideas = WAL_celtic_imperial_spirit
+        if = {
+            limit = { SCO = { is_subject_of = WAL } }
+            annex_country = { target = SCO transfer_troops = yes }
+        }
+        if = {
+            limit = { IRE = { is_subject_of = WAL } }
+            annex_country = { target = IRE transfer_troops = yes }
+        }
+    }
+}
+
+WAL_druidic_legions = {
+    icon = GFX_decision_generic_prepare_civil_war
+    
+    available = {
+        has_government = fascism
+        has_completed_focus = WAL_revive_the_druidic_order
+    }
+    
+    visible = {
+        has_government = fascism
+    }
+    
+    cost = 100
+    days_remove = 90
+    
+    ai_will_do = {
+        factor = 50
+    }
+    
+    remove_effect = {
+        add_manpower = 75000
+        division_template = {
+            name = "Druidic Legion"
+            regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+                infantry = { x = 1 y = 2 }
+                infantry = { x = 2 y = 0 }
+                infantry = { x = 2 y = 1 }
+                infantry = { x = 2 y = 2 }
+            }
+            support = {
+                artillery = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
+            }
+        }
+        capital_scope = {
+            create_unit = {
+                division = "name = \"1st Druidic Legion\" division_template = \"Druidic Legion\" start_experience_factor = 0.6"
+                owner = WAL
+            }
+            create_unit = {
+                division = "name = \"2nd Druidic Legion\" division_template = \"Druidic Legion\" start_experience_factor = 0.6"
+                owner = WAL
+            }
+            create_unit = {
+                division = "name = \"3rd Druidic Legion\" division_template = \"Druidic Legion\" start_experience_factor = 0.6"
+                owner = WAL
+            }
+            create_unit = {
+                division = "name = \"4th Druidic Legion\" division_template = \"Druidic Legion\" start_experience_factor = 0.6"
+                owner = WAL
+            }
+        }
+    }
+}
+
+WAL_conquest_of_england = {
+    icon = GFX_decision_generic_prepare_civil_war
+    
+    available = {
+        has_government = fascism
+        has_completed_focus = WAL_march_on_england
+        has_war_with = ENG
+    }
+    
+    visible = {
+        has_government = fascism
+        has_war_with = ENG
+    }
+    
+    cost = 50
+    days_remove = 1
+    
+    ai_will_do = {
+        factor = 100
+    }
+    
+    remove_effect = {
+        add_ideas = WAL_english_conquest_spirit
+    }
+}
+
+# ================================
+# MONARCHIST PATH DECISIONS
+# ================================
+
+WAL_form_celtic_union = {
+    icon = GFX_decision_generic_form_nation
+    
+    available = {
+        has_government = neutrality
+        has_completed_focus = WAL_the_celtic_crown
+        OR = {
+            SCO = { is_subject_of = WAL }
+            IRE = { is_subject_of = WAL }
+        }
+    }
+    
+    visible = {
+        has_government = neutrality
+    }
+    
+    cost = 200
+    days_remove = 120
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 100
+    }
+    
+    remove_effect = {
+        set_cosmetic_tag = WAL_celtic_union
+        add_stability = 0.15
+        add_war_support = 0.10
+        add_ideas = WAL_celtic_union_spirit
+        if = {
+            limit = { SCO = { is_subject_of = WAL } }
+            annex_country = { target = SCO transfer_troops = yes }
+        }
+        if = {
+            limit = { IRE = { is_subject_of = WAL } }
+            annex_country = { target = IRE transfer_troops = yes }
+        }
+        every_state = {
+            limit = {
+                OR = {
+                    is_core_of = SCO
+                    is_core_of = IRE
+                }
+            }
+            add_core_of = WAL
+        }
+    }
+}
+
+WAL_french_technological_exchange = {
+    icon = GFX_decision_generic_research
+    
+    available = {
+        has_government = neutrality
+        has_completed_focus = WAL_royal_treaty_france
+        FRA = { exists = yes }
+    }
+    
+    visible = {
+        has_government = neutrality
+    }
+    
+    cost = 150
+    days_remove = 180
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 100
+    }
+    
+    remove_effect = {
+        add_research_slot = 1
+        add_offsite_building = { type = arms_factory level = 3 }
+        add_tech_bonus = {
+            name = industrial_bonus
+            bonus = 1.0
+            uses = 3
+            category = industry
+        }
+        FRA = {
+            send_equipment = {
+                target = WAL
+                type = infantry_equipment
+                amount = 3000
+            }
+        }
+    }
+}
+
+WAL_royal_army_expansion = {
+    icon = GFX_decision_generic_prepare_civil_war
+    
+    available = {
+        has_government = neutrality
+        has_completed_focus = WAL_a_kings_army
+    }
+    
+    visible = {
+        has_government = neutrality
+    }
+    
+    cost = 100
+    days_remove = 120
+    
+    ai_will_do = {
+        factor = 50
+    }
+    
+    remove_effect = {
+        add_manpower = 60000
+        division_template = {
+            name = "Royal Welsh Guard"
+            regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+                infantry = { x = 1 y = 2 }
+                infantry = { x = 2 y = 0 }
+                infantry = { x = 2 y = 1 }
+                infantry = { x = 2 y = 2 }
+                infantry = { x = 3 y = 0 }
+            }
+            support = {
+                artillery = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
+                recon = { x = 0 y = 2 }
+            }
+        }
+        capital_scope = {
+            create_unit = {
+                division = "name = \"1st Royal Guard\" division_template = \"Royal Welsh Guard\" start_experience_factor = 0.7"
+                owner = WAL
+            }
+            create_unit = {
+                division = "name = \"2nd Royal Guard\" division_template = \"Royal Welsh Guard\" start_experience_factor = 0.7"
+                owner = WAL
+            }
+            create_unit = {
+                division = "name = \"3rd Royal Guard\" division_template = \"Royal Welsh Guard\" start_experience_factor = 0.7"
+                owner = WAL
+            }
+        }
+    }
+}
+
+WAL_claim_british_throne = {
+    icon = GFX_decision_generic_prepare_civil_war
+    
+    available = {
+        has_government = neutrality
+        has_completed_focus = WAL_britannias_true_heir
+    }
+    
+    visible = {
+        has_government = neutrality
+    }
+    
+    cost = 200
+    days_remove = 60
+    fire_only_once = yes
+    
+    ai_will_do = {
+        factor = 100
+    }
+    
+    remove_effect = {
+        create_wargoal = {
+            type = annex_everything
+            target = ENG
+        }
+        add_ideas = WAL_rightful_heir_of_britain
+        add_war_support = 0.20
+        add_stability = 0.10
+    }
+}
+
+# ================================
+# INDUSTRIAL POWERHOUSE DECISIONS
+# ================================
+
+WAL_mass_industrialization = {
+    icon = GFX_decision_generic_construction
+    
+    available = {
+        has_idea = WAL_homegrown_industry
+    }
+    
+    visible = {
+        original_tag = WAL
+    }
+    
+    cost = 150
+    days_remove = 180
+    
+    ai_will_do = {
+        factor = 40
+    }
+    
+    remove_effect = {
+        every_owned_state = {
+            limit = { is_core_of = WAL }
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
+}
+
+WAL_military_industrial_complex = {
+    icon = GFX_decision_generic_industry
+    
+    available = {
+        num_of_military_factories > 10
+    }
+    
+    visible = {
+        original_tag = WAL
+    }
+    
+    cost = 200
+    days_remove = 240
+    
+    ai_will_do = {
+        factor = 30
+    }
+    
+    remove_effect = {
+        every_owned_state = {
+            limit = { is_core_of = WAL }
+            add_building_construction = {
+                type = arms_factory
+                level = 3
+                instant_build = yes
+            }
+        }
+    }
+}
+
+WAL_coal_empire = {
+    icon = GFX_decision_generic_construction
+    
+    available = {
+        any_owned_state = {
+            is_core_of = WAL
+        }
+    }
+    
+    visible = {
+        original_tag = WAL
+    }
+    
+    cost = 100
+    days_remove = 120
+    
+    ai_will_do = {
+        factor = 35
+    }
+    
+    remove_effect = {
+        every_owned_state = {
+            limit = { is_core_of = WAL }
+            add_resource = {
+                type = steel
+                amount = 20
+            }
+            add_resource = {
+                type = tungsten
+                amount = 10
+            }
+        }
+    }
+}
