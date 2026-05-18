@@ -18,7 +18,7 @@ focus_tree = {
     
     focus = {
         id = WAL_the_dragon_rises
-        icon = GFX_focus_generic_self_management
+        icon = GFX_focus_WAL_A_new_dawn_for_Cymru
         x = 15
         y = 0
         cost = 5
