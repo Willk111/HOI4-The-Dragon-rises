@@ -18,7 +18,7 @@ focus_tree = {
     
     focus = {
         id = WAL_the_dragon_rises
-        icon = GFX_focus_generic_self_management
+        icon = GFX_focus_WAL_A_new_dawn_for_Cymru
         x = 15
         y = 0
         cost = 5
@@ -33,7 +33,7 @@ focus_tree = {
     
     focus = {
         id = WAL_choose_our_path
-        icon = GFX_goal_generic_demand_territory
+        icon = GFX_focus_WAL_Choose_our_path
         prerequisite = { focus = WAL_the_dragon_rises }
         x = 15
         y = 1
@@ -52,7 +52,7 @@ focus_tree = {
     
     focus = {
         id = WAL_a_democratic_mandate
-        icon = GFX_goal_generic_support_democracy
+        icon = GFX_focus_WAL_Democratic_mandate
         prerequisite = { focus = WAL_choose_our_path }
         mutually_exclusive = { focus = WAL_red_dragon_rising }
         mutually_exclusive = { focus = WAL_rise_of_the_dragon }
@@ -76,8 +76,8 @@ focus_tree = {
     }
     
     focus = {
-        id = WAL_welsh_national_assembly
-        icon = GFX_goal_generic_parliament
+        id = GFX_focus_WAL_welsh_national_assembly
+        icon = GFX_focus_WAL_welsh_national_assembly
         prerequisite = { focus = WAL_a_democratic_mandate }
         x = 1
         y = 3
@@ -92,7 +92,7 @@ focus_tree = {
     
     focus = {
         id = WAL_the_trade_union_pact
-        icon = GFX_goal_generic_production2
+        icon = GFX_focus_WAL_trade_unions
         prerequisite = { focus = WAL_a_democratic_mandate }
         x = 3
         y = 3
@@ -109,7 +109,7 @@ focus_tree = {
     
     focus = {
         id = WAL_allies_in_london
-        icon = GFX_goal_generic_allies_build_infantry
+        icon = GFX_focus_WAL_alies_in_london
         prerequisite = { focus = WAL_a_democratic_mandate }
         x = 5
         y = 3
@@ -124,7 +124,7 @@ focus_tree = {
     
     focus = {
         id = WAL_atlantic_diplomacy
-        icon = GFX_goal_generic_navy_cruiser
+        icon = GFX_focus_WAL_atlantic_diplomacy
         prerequisite = { focus = WAL_allies_in_london }
         x = 5
         y = 4
@@ -163,7 +163,7 @@ focus_tree = {
     
     focus = {
         id = WAL_homegrown_industry
-        icon = GFX_goal_generic_construct_civ_factory
+        icon = GFX_focus_WAL_industry
         prerequisite = { focus = WAL_the_trade_union_pact }
         x = 3
         y = 4
@@ -186,7 +186,7 @@ focus_tree = {
     
     focus = {
         id = WAL_defend_the_west
-        icon = GFX_goal_generic_fortify_city
+        icon = GFX_focus_WAL_defend_the_west
         prerequisite = { focus = WAL_homegrown_industry }
         prerequisite = { focus = WAL_cymru_and_europe }
         x = 2
@@ -216,7 +216,7 @@ focus_tree = {
     
     focus = {
         id = WAL_democratic_wales_prevails
-        icon = GFX_goal_generic_major_alliance
+        icon = GFX_focus_WAL_The_light_of_cymru
         prerequisite = { focus = WAL_defend_the_west }
         prerequisite = { focus = WAL_atlantic_diplomacy }
         x = 3
@@ -1314,4 +1314,3 @@ focus_tree = {
         }
     }
 }
-

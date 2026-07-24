@@ -1,4 +1,5 @@
 name="The Dragon Rises"
+path="mod/TDR-Release"
 tags={
 	"Gameplay"
 	"Alternative History"

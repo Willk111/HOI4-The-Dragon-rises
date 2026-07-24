@@ -1,0 +1,13 @@
+spriteTypes = {
+	spriteType = { name = "GFX_focus_WAL_A_new_dawn_for_Cymru" texturefile = "gfx/goals/A_new_dawn_for_cymru.dds"}
+	spriteType = { name = "GFX_focus_WAL_Democratic_mandate" texturefile = "gfx/goals/A_democratic_mandate_t.dds"}
+	spriteType = { name = "GFX_focus_WAL_alies_in_london" texturefile = "gfx/goals/alies_in_london.dds"}
+	spriteType = { name = "GFX_focus_WAL_atlantic_diplomacy" texturefile = "gfx/goals/atlantic_diplomacy_t.dds"}
+	spriteType = { name = "GFX_focus_WAL_Choose_our_path" texturefile = "gfx/goals/Choose_Our_Path-T.dds"}
+	spriteType = { name = "GFX_focus_WAL_defend_the_west" texturefile = "gfx/goals/defend_the_west.dds"}
+	spriteType = { name = "GFX_focus_WAL_industry" texturefile = "gfx/goals/Industry.dds"}
+	spriteType = { name = "GFX_focus_WAL_national_assembly" texturefile = "gfx/goals/national_assembly_t.dds"}
+	spriteType = { name = "GFX_focus_WAL_The_light_of_cymru" texturefile = "gfx/goals/The_light_of_cymru.dds"}
+	spriteType = { name = "GFX_focus_WAL_trade_unions" texturefile = "gfx/goals/trade_union_t.dds"}
+	spriteType = { name = "GFX_focus_WAL_welsh_national_assembly" texturefile = "gfx/goals/welsh_national_assembly.dds"}
+}
