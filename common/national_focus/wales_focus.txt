@@ -76,7 +76,7 @@ focus_tree = {
     }
     
     focus = {
-        id = GFX_focus_WAL_welsh_national_assembly
+        id = WAL_welsh_national_assembly
         icon = GFX_focus_WAL_welsh_national_assembly
         prerequisite = { focus = WAL_a_democratic_mandate }
         x = 1
@@ -149,6 +149,7 @@ focus_tree = {
         completion_reward = {
             FRA = { add_opinion_modifier = { target = WAL modifier = large_increase } }
             add_political_power = 50
+            IRE = { add_opinion_modifier = { target = WAL modifier = large_increase } }
             if = {
                 limit = {
                     OR = {

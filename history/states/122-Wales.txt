@@ -24,12 +24,12 @@ state = {
             9364 5
         }
         buildings = {
-            infrastructure = 7
-            industrial_complex = 4
+            infrastructure = 5
+            industrial_complex = 3
             arms_factory = 2
-            air_base = 3
+            air_base = 1
             377 = {
-                naval_base = 4
+                naval_base = 1
             }
         }
     }
@@ -38,3 +38,4 @@ state = {
         253 311 377 407 3274 6363 9364 11361
     }
 }
+
