@@ -2,6 +2,29 @@
 
 All notable changes to The Dragon Rises are listed here, newest first.
 
+## Version names
+
+Each part of the version number picks a name from its own list:
+
+| # | Major (X.0.0): Welsh mythology | Minor (0.X.0): Welsh castles | Patch (0.0.X): Welsh rivers |
+|---|---|---|---|
+| 1 | Y Ddraig Goch | Caernarfon | Taf |
+| 2 | Rhiannon | Harlech | Tywi |
+| 3 | Bendigeidfran | Conwy | Teifi |
+| 4 | Taliesin | Beaumaris | Wysg |
+| 5 | Ceridwen | Castell Coch | Elwy |
+| 6 | Gwydion | Pembroke | Dyfrdwy |
+| 7 | Arianrhod | Cilgerran | Hafren |
+| 8 | Arawn | Caerphilly | Gwy |
+| 9 | Blodeuwedd | Dinefwr | Clwyd |
+| 10 | Myrddin | Rhuddlan | Mawddach |
+
+- A release is called by the name of **the part that changed**: a major release takes its major name, a minor release its castle and a patch its river.
+- Its **full name** chains the non-zero parts from the left. Example: **1.9.2** is called **"Tywi"**, full name **Y Ddraig Goch · Dinefwr · Tywi**.
+- Before 1.0 there is no major name, so 0.2.0 is simply "Harlech" and 0.2.1 would be "Harlech · Taf".
+- 1.0.0 is **"Y Ddraig Goch"** (the Red Dragon), fitting for The Dragon Rises.
+- If a number passes 10, add more names to the bottom of that column. Never reorder the lists, or old versions change names.
+
 ## [0.2.0] "Harlech" - Unreleased
 
 This release makes every political path playable, fixes many features that were silently broken, and brings Wales's power level back in line with a single-state nation.
