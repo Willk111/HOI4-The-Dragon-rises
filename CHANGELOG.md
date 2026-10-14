@@ -2,7 +2,19 @@
 
 All notable changes to The Dragon Rises are listed here, newest first.
 
-## [0.2.0] - Unreleased
+## Version names
+
+Every release gets a Welsh name, taken from a different theme for each kind of update:
+
+| Update type | Example | Named after | Next names, in order |
+|---|---|---|---|
+| Major | 1.0.0 | Welsh princes and kings | Glyndŵr, Llywelyn, Hywel Dda, Rhodri Mawr, Gruffudd ap Cynan |
+| Minor | 0.1.0 | Welsh castles | ~~Caernarfon~~, ~~Harlech~~, Conwy, Beaumaris, Castell Coch, Pembroke, Cilgerran |
+| Patch | 0.0.1 | Welsh rivers | Taf, Tywi, Teifi, Wysg, Conwy, Dyfrdwy, Hafren |
+
+Take the next unused name from the row for that update type, and strike it through here once it's used. 1.0.0 is reserved as **"Glyndŵr"**, after the last native Prince of Wales.
+
+## [0.2.0] "Harlech" - Unreleased
 
 This release makes every political path playable, fixes many features that were silently broken, and brings Wales's power level back in line with a single-state nation.
 
@@ -59,6 +71,6 @@ This release makes every political path playable, fixes many features that were 
 - Decision category icons have not yet been verified in game.
 - The Celtic Empire and Celtic Union cosmetic tags have no flags yet.
 
-## [0.1.0] - Alpha
+## [0.1.0] "Caernarfon" - Alpha
 
 - First public alpha: five political paths, an industrial and fortress branch, custom characters, national spirits, decisions and English localisation.
