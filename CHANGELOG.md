@@ -4,28 +4,13 @@ All notable changes to The Dragon Rises are listed here, newest first.
 
 ## Version names
 
-Each part of the version number picks a name from its own list:
+Every release gets a generated alliterative code name: an adjective plus a creature or figure from Welsh mythology.
 
-| # | Major (X.0.0): Welsh mythology | Minor (0.X.0): Welsh castles | Patch (0.0.X): Welsh rivers |
-|---|---|---|---|
-| 1 | Y Ddraig Goch | Caernarfon | Taf |
-| 2 | Rhiannon | Harlech | Tywi |
-| 3 | Bendigeidfran | Conwy | Teifi |
-| 4 | Taliesin | Beaumaris | Wysg |
-| 5 | Ceridwen | Castell Coch | Elwy |
-| 6 | Gwydion | Pembroke | Dyfrdwy |
-| 7 | Arianrhod | Cilgerran | Hafren |
-| 8 | Arawn | Caerphilly | Gwy |
-| 9 | Blodeuwedd | Dinefwr | Clwyd |
-| 10 | Myrddin | Rhuddlan | Mawddach |
+- The letter moves one step along the alphabet with every **major or minor** release, wrapping back to A after Y. Welsh has no J, K, Q, V, X or Z, so those letters are skipped.
+- **Patch releases keep their parent's name**: 0.2.0 and 0.2.1 are both Bold Bendigeidfran.
+- The words for each letter come from a hash of the version, so a version always gets the same name.
 
-- A release is called by the name of **the part that changed**: a major release takes its major name, a minor release its castle and a patch its river.
-- Its **full name** chains the non-zero parts from the left. Example: **1.9.2** is called **"Tywi"**, full name **Y Ddraig Goch · Dinefwr · Tywi**.
-- Before 1.0 there is no major name, so 0.2.0 is simply "Harlech" and 0.2.1 would be "Harlech · Taf".
-- 1.0.0 is **"Y Ddraig Goch"** (the Red Dragon), fitting for The Dragon Rises.
-- If a number passes 10, add more names to the bottom of that column. Never reorder the lists, or old versions change names.
-
-## [0.2.0] "Harlech" - Unreleased
+## [0.2.0] "Bold Bendigeidfran" - Unreleased
 
 This release makes every political path playable, fixes many features that were silently broken, and brings Wales's power level back in line with a single-state nation.
 
@@ -82,6 +67,6 @@ This release makes every political path playable, fixes many features that were 
 - Decision category icons have not yet been verified in game.
 - The Celtic Empire and Celtic Union cosmetic tags have no flags yet.
 
-## [0.1.0] "Caernarfon" - Alpha
+## [0.1.0] "Ancient Arawn" - Alpha
 
 - First public alpha: five political paths, an industrial and fortress branch, custom characters, national spirits, decisions and English localisation.
