@@ -59,7 +59,7 @@ ideas = {
         # DEMOCRATIC PATH IDEAS
         # ================================
         
-        WAL_a_democratic_mandate = {
+        WAL_a_democratic_mandate_idea = {
             allowed = {
                 always = no
             }
@@ -77,7 +77,7 @@ ideas = {
             }
         }
         
-        WAL_welsh_national_assembly = {
+        WAL_welsh_national_assembly_idea = {
             allowed = {
                 always = no
             }
@@ -168,7 +168,7 @@ ideas = {
             }
         }
         
-        WAL_homegrown_industry = {
+        WAL_homegrown_industry_idea = {
             allowed = {
                 always = no
             }
@@ -187,7 +187,7 @@ ideas = {
             }
         }
         
-        WAL_defend_the_west = {
+        WAL_defend_the_west_idea = {
             allowed = {
                 always = no
             }
@@ -209,7 +209,7 @@ ideas = {
         # COMMUNIST PATH IDEAS
         # ================================
         
-        WAL_red_dragon_rising = {
+        WAL_red_dragon_rising_idea = {
             allowed = {
                 always = no
             }
@@ -227,7 +227,7 @@ ideas = {
             }
         }
         
-        WAL_workers_councils = {
+        WAL_workers_councils_idea = {
             allowed = {
                 always = no
             }
@@ -246,7 +246,7 @@ ideas = {
             }
         }
         
-        WAL_welsh_soviet_pact = {
+        WAL_welsh_soviet_pact_idea = {
             allowed = {
                 always = no
             }
@@ -303,7 +303,7 @@ ideas = {
             }
         }
         
-        WAL_export_the_revolution = {
+        WAL_export_the_revolution_idea = {
             allowed = {
                 always = no
             }
@@ -341,7 +341,7 @@ ideas = {
             }
         }
         
-        WAL_a_peoples_army = {
+        WAL_a_peoples_army_idea = {
             allowed = {
                 always = no
             }
@@ -419,7 +419,7 @@ ideas = {
         # FASCIST PATH IDEAS
         # ================================
         
-        WAL_rise_of_the_dragon = {
+        WAL_rise_of_the_dragon_idea = {
             allowed = {
                 always = no
             }
@@ -437,7 +437,7 @@ ideas = {
             }
         }
         
-        WAL_purging_british_influence = {
+        WAL_purging_british_influence_idea = {
             allowed = {
                 always = no
             }
@@ -456,7 +456,7 @@ ideas = {
             }
         }
         
-        WAL_cymru_for_the_cymry = {
+        WAL_cymru_for_the_cymry_idea = {
             allowed = {
                 always = no
             }
@@ -474,7 +474,7 @@ ideas = {
             }
         }
         
-        WAL_revive_the_druidic_order = {
+        WAL_revive_the_druidic_order_idea = {
             allowed = {
                 always = no
             }
@@ -493,7 +493,7 @@ ideas = {
             }
         }
         
-        WAL_march_on_england = {
+        WAL_march_on_england_idea = {
             allowed = {
                 always = no
             }
@@ -514,7 +514,7 @@ ideas = {
             }
         }
         
-        WAL_pact_with_berlin = {
+        WAL_pact_with_berlin_idea = {
             allowed = {
                 always = no
             }
@@ -532,7 +532,7 @@ ideas = {
             }
         }
         
-        WAL_dominance_of_celtic_isles = {
+        WAL_dominance_of_celtic_isles_idea = {
             allowed = {
                 always = no
             }
@@ -550,7 +550,7 @@ ideas = {
             }
         }
         
-        WAL_the_welsh_war_machine = {
+        WAL_the_welsh_war_machine_idea = {
             allowed = {
                 always = no
             }
@@ -633,7 +633,7 @@ ideas = {
         # MONARCHIST PATH IDEAS
         # ================================
         
-        WAL_return_of_the_true_king = {
+        WAL_return_of_the_true_king_idea = {
             allowed = {
                 always = no
             }
@@ -651,7 +651,7 @@ ideas = {
             }
         }
         
-        WAL_court_of_cymru = {
+        WAL_court_of_cymru_idea = {
             allowed = {
                 always = no
             }
@@ -671,7 +671,7 @@ ideas = {
             }
         }
         
-        WAL_new_arthurian_age = {
+        WAL_new_arthurian_age_idea = {
             allowed = {
                 always = no
             }
@@ -690,7 +690,7 @@ ideas = {
             }
         }
         
-        WAL_the_celtic_crown = {
+        WAL_the_celtic_crown_idea = {
             allowed = {
                 always = no
             }
@@ -708,7 +708,7 @@ ideas = {
             }
         }
         
-        WAL_a_kings_army = {
+        WAL_a_kings_army_idea = {
             allowed = {
                 always = no
             }
@@ -730,7 +730,7 @@ ideas = {
             }
         }
         
-        WAL_royal_treaty_france = {
+        WAL_royal_treaty_france_idea = {
             allowed = {
                 always = no
             }
@@ -748,7 +748,7 @@ ideas = {
             }
         }
         
-        WAL_restoring_marcher_borders = {
+        WAL_restoring_marcher_borders_idea = {
             allowed = {
                 always = no
             }
@@ -766,7 +766,7 @@ ideas = {
             }
         }
         
-        WAL_britannias_true_heir = {
+        WAL_britannias_true_heir_idea = {
             allowed = {
                 always = no
             }
@@ -833,7 +833,7 @@ ideas = {
         # REJOIN IDEAS
         # ================================
 
-        WAL_economic_integration = {
+        WAL_economic_integration_idea = {
             picture = generic_production_bonus
             
             allowed = { original_tag = WAL }
@@ -844,7 +844,7 @@ ideas = {
             }
         }
         
-        WAL_military_cooperation = {
+        WAL_military_cooperation_idea = {
             picture = generic_army_war_college
             
             allowed = { original_tag = WAL }
@@ -868,7 +868,7 @@ ideas = {
             }
         }
         
-        WAL_royal_navy_protection = {
+        WAL_royal_navy_protection_idea = {
             picture = generic_navy_bonus
             
             allowed = { original_tag = WAL }
@@ -880,7 +880,7 @@ ideas = {
             }
         }
         
-        WAL_imperial_resources = {
+        WAL_imperial_resources_idea = {
             picture = generic_goods_red_bonus
             
             allowed = { original_tag = WAL }
@@ -893,7 +893,7 @@ ideas = {
             }
         }
         
-        WAL_commonwealth_arsenal = {
+        WAL_commonwealth_arsenal_idea = {
             picture = generic_production_bonus
             
             allowed = { original_tag = WAL }
@@ -908,7 +908,7 @@ ideas = {
             }
         }
         
-        WAL_united_we_stand = {
+        WAL_united_we_stand_idea = {
             picture = generic_allies_build_infantry
             
             allowed = { original_tag = WAL }

@@ -411,7 +411,7 @@ WAL_communist_decisions = {
 
         remove_effect = {
             add_manpower = 20000
-            swap_ideas = { remove_idea = WAL_a_peoples_army add_idea = WAL_peoples_militia }
+            swap_ideas = { remove_idea = WAL_a_peoples_army_idea add_idea = WAL_peoples_militia }
             division_template = {
                 name = "Welsh People's Army"
                 regiments = {
@@ -555,7 +555,7 @@ WAL_fascist_decisions = {
                 limit = { is_core_of = WAL }
                 add_extra_state_shared_building_slots = 1
             }
-            swap_ideas = { remove_idea = WAL_the_welsh_war_machine add_idea = WAL_total_militarization }
+            swap_ideas = { remove_idea = WAL_the_welsh_war_machine_idea add_idea = WAL_total_militarization }
         }
     }
 
@@ -632,7 +632,7 @@ WAL_fascist_decisions = {
             set_cosmetic_tag = WAL_celtic_empire
             add_stability = 0.10
             add_war_support = 0.10
-            swap_ideas = { remove_idea = WAL_dominance_of_celtic_isles add_idea = WAL_celtic_imperial_spirit }
+            swap_ideas = { remove_idea = WAL_dominance_of_celtic_isles_idea add_idea = WAL_celtic_imperial_spirit }
             if = {
                 limit = { SCO = { is_subject_of = WAL } }
                 annex_country = { target = SCO transfer_troops = yes }
@@ -855,7 +855,7 @@ WAL_monarchist_decisions = {
             set_cosmetic_tag = WAL_celtic_union
             add_stability = 0.10
             add_war_support = 0.05
-            swap_ideas = { remove_idea = WAL_the_celtic_crown add_idea = WAL_celtic_union_spirit }
+            swap_ideas = { remove_idea = WAL_the_celtic_crown_idea add_idea = WAL_celtic_union_spirit }
             if = {
                 limit = { SCO = { is_subject_of = WAL } }
                 annex_country = { target = SCO transfer_troops = yes }
@@ -996,7 +996,7 @@ WAL_monarchist_decisions = {
                 type = annex_everything
                 target = ENG
             }
-            swap_ideas = { remove_idea = WAL_britannias_true_heir add_idea = WAL_rightful_heir_of_britain }
+            swap_ideas = { remove_idea = WAL_britannias_true_heir_idea add_idea = WAL_rightful_heir_of_britain }
             add_war_support = 0.10
             add_stability = 0.05
         }

@@ -152,8 +152,8 @@
  WAL_britannias_true_heir:0 "Britannia's True Heir"
  WAL_britannias_true_heir_desc:0 "When the kings of old fell and the land was divided, prophecy foretold that a true heir would rise from the west — crowned beneath the Dragon’s wings to restore unity to the Isles. That prophecy has come to pass. The false crowns of London will fade, and the rightful sovereign of Britannia shall reign from Cymru, where honour, blood, and destiny converge."
 
- WAL_monarchist_wales_prevails:0 "The Dragon Ascendant"
- WAL_monarchist_wales_prevails_desc:0 "Through blood, discipline, and unyielding will, Wales has risen to command its destiny. The weak have fallen, and the Isles now stand united beneath the banner of the Dragon. A new order reigns — forged in fire and bound by strength. Cymru stands eternal."
+ WAL_monarchist_wales_prevails:0 "Long Live the King"
+ WAL_monarchist_wales_prevails_desc:0 "More than five centuries after Glyndŵr raised his standard at Glyndyfrdwy, a Welsh king once again sits upon a Welsh throne. The old houses have sworn their oaths, the bards sing of a restored line, and from Harlech to Cardiff the red dragon flies above the royal arms. The crown is secure; now it must look beyond the borders of Wales, to the Celtic peoples who share our blood and our history."
 
  # Rejoin the union path
   WAL_negotiate_reunion:0 "Negotiate Reunion with Britain"
@@ -198,11 +198,11 @@
  WAL_fortress_wales_desc:0 "From the mountains of Eryri to the cliffs of Pembroke, every pass, port and valley is ringed with bunkers, guns and radar. Any invader will bleed for every yard of Welsh soil."
  
  # Democratic Ideas
- WAL_a_democratic_mandate:0 "Democratic Mandate"
- WAL_a_democratic_mandate_desc:0 "England’s experiment with democracy has withered beneath the weight of its own arrogance and decline. But in Wales, the dream still burns bright. Here, a new nation dares to believe in the strength of the people and the promise of freedom. From Cardiff’s halls to the valleys below, the Welsh voice will speak for democracy — clear, proud, and unwavering — a new light in a darkening continent."
+ WAL_a_democratic_mandate_idea:0 "Democratic Mandate"
+ WAL_a_democratic_mandate_idea_desc:0 "England’s experiment with democracy has withered beneath the weight of its own arrogance and decline. But in Wales, the dream still burns bright. Here, a new nation dares to believe in the strength of the people and the promise of freedom. From Cardiff’s halls to the valleys below, the Welsh voice will speak for democracy — clear, proud, and unwavering — a new light in a darkening continent."
  
- WAL_welsh_national_assembly:0 "Welsh National Assembly"
- WAL_welsh_national_assembly_desc:0 "The time has come to establish a true Welsh National Assembly — a parliament by and for the people of Cymru. From its chambers will emerge the laws, leaders, and ideals that define our young democracy. By giving every citizen a voice in shaping our destiny, we will lay the foundations of a stable, prosperous, and enduring Welsh state."
+ WAL_welsh_national_assembly_idea:0 "Welsh National Assembly"
+ WAL_welsh_national_assembly_idea_desc:0 "The time has come to establish a true Welsh National Assembly — a parliament by and for the people of Cymru. From its chambers will emerge the laws, leaders, and ideals that define our young democracy. By giving every citizen a voice in shaping our destiny, we will lay the foundations of a stable, prosperous, and enduring Welsh state."
  
  WAL_trade_union_pact:0 "Trade Union Pact"
  WAL_trade_union_pact_desc:0 "The strength of our democracy lies not in the halls of power, but in the hands of its people. By uniting the trade unions and the parliament, we will create a Wales where every citizen — from the miners of the valleys to the sailors of the coast — has a voice. This pact will bind our nation together in fairness, solidarity, and shared purpose."
@@ -216,24 +216,22 @@
  WAL_democratic_scientific_advancement:0 "Democratic Scientific Advancement"
  WAL_democratic_scientific_advancement_desc:0 "The Welsh people have embraced the promise of progress through knowledge and innovation. With state funding and democratic oversight, our universities and research institutions have flourished into centres of excellence. Scientists and engineers work tirelessly to improve industry, medicine, and communication — all in service of a better, fairer future. In Wales, discovery is no longer the privilege of the few, but the shared pursuit of an enlightened nation determined to secure its place in the modern world."
  
- WAL_homegrown_industry:0 "Homegrown Industry"
- WAL_homegrown_industry_desc:0 "After decades of reliance on outside capital, Wales has built a robust and independent industrial base. New factories, powered by local resources and labour, hum with the rhythm of national renewal. The government’s policies have encouraged Welsh entrepreneurship, while worker protections ensure that progress benefits all citizens. From the coal mines of the valleys to the foundries of the north, a spirit of self-reliance drives the nation forward — proof that Wales can stand strong on its own."
+ WAL_homegrown_industry_idea:0 "Homegrown Industry"
+ WAL_homegrown_industry_idea_desc:0 "After decades of reliance on outside capital, Wales has built a robust and independent industrial base. New factories, powered by local resources and labour, hum with the rhythm of national renewal. The government’s policies have encouraged Welsh entrepreneurship, while worker protections ensure that progress benefits all citizens. From the coal mines of the valleys to the foundries of the north, a spirit of self-reliance drives the nation forward — proof that Wales can stand strong on its own."
  
- WAL_defend_the_west:0 "Defend the West"
- WAL_defend_the_west_desc:0 "The defense of our homeland has become a matter of national unity and pride. Across the western coastline, gun batteries, radar stations, and fortifications stand vigilant against any threat from sea or sky. Citizens volunteer for local defense forces, and every town prepares to play its part in safeguarding freedom. In a dangerous world, Wales has become a fortress of democracy — a bastion guarding the western frontier of the British Isles with courage and resolve."
+ WAL_defend_the_west_idea:0 "Defend the West"
+ WAL_defend_the_west_idea_desc:0 "The defense of our homeland has become a matter of national unity and pride. Across the western coastline, gun batteries, radar stations, and fortifications stand vigilant against any threat from sea or sky. Citizens volunteer for local defense forces, and every town prepares to play its part in safeguarding freedom. In a dangerous world, Wales has become a fortress of democracy — a bastion guarding the western frontier of the British Isles with courage and resolve."
  
- WAL_democratic_wales_prevails:0 "The Light of Cymru"
- WAL_democratic_wales_prevails_desc:0 "Wales stands tall as a beacon of democracy and freedom in the British Isles. Through diplomacy, unity, and courage, we have proven that liberty can thrive even in the smallest of nations. The Red Dragon shines not as a conqueror, but as a guardian of peace."
 
  # Communist Ideas
- WAL_red_dragon_rising:0 "Red Dragon Rising"
- WAL_red_dragon_rising_desc:0 "For generations, the workers of Wales have been exploited and silenced. Now, their voices thunder across the valleys in unison. The old order crumbles as the Red Dragon unfurls its crimson wings, heralding the birth of a new Wales — a nation built on equality, unity, and the unbreakable spirit of its people."
+ WAL_red_dragon_rising_idea:0 "Red Dragon Rising"
+ WAL_red_dragon_rising_idea_desc:0 "For generations, the workers of Wales have been exploited and silenced. Now, their voices thunder across the valleys in unison. The old order crumbles as the Red Dragon unfurls its crimson wings, heralding the birth of a new Wales — a nation built on equality, unity, and the unbreakable spirit of its people."
  
- WAL_workers_councils:0 "Workers' Councils"
- WAL_workers_councils_desc:0 "The lifeblood of Wales flows through its workers — the miners, the steelmen, the factory hands who built this nation with sweat and struggle. No longer will they answer to absentee owners or foreign profiteers. Every factory, every dock, every mine shall belong to those who labor within them. Through the creation of Workers’ Councils, industry will be guided by the will of the people, not the greed of the few. From now on, Cymru’s wealth will serve its people — not the other way around."
+ WAL_workers_councils_idea:0 "Workers' Councils"
+ WAL_workers_councils_idea_desc:0 "The lifeblood of Wales flows through its workers — the miners, the steelmen, the factory hands who built this nation with sweat and struggle. No longer will they answer to absentee owners or foreign profiteers. Every factory, every dock, every mine shall belong to those who labor within them. Through the creation of Workers’ Councils, industry will be guided by the will of the people, not the greed of the few. From now on, Cymru’s wealth will serve its people — not the other way around."
  
- WAL_welsh_soviet_pact:0 "Welsh-Soviet Pact"
- WAL_welsh_soviet_pact_desc:0 "From the valleys of Cymru to the steppes of Russia, the voice of the worker cries out in unison! The capitalist empires tremble as the red banners of Wales and the Soviet Union rise together in defiance. This pact is more than an alliance — it is a declaration of unity among the free peoples of the world. Together, we shall strike the chains from humanity and forge a new order, where labor rules supreme and the oppressors are no more!"
+ WAL_welsh_soviet_pact_idea:0 "Welsh-Soviet Pact"
+ WAL_welsh_soviet_pact_idea_desc:0 "From the valleys of Cymru to the steppes of Russia, the voice of the worker cries out in unison! The capitalist empires tremble as the red banners of Wales and the Soviet Union rise together in defiance. This pact is more than an alliance — it is a declaration of unity among the free peoples of the world. Together, we shall strike the chains from humanity and forge a new order, where labor rules supreme and the oppressors are no more!"
  
  WAL_miners_revolution:0 "The Miners' Revolution"
  WAL_miners_revolution_desc:0 "From the depths of the coal pits and slate quarries, the heartbeat of the Welsh revolution thunders. For generations, miners have endured the darkness, their sweat and sacrifice fueling empires that gave them nothing in return. Now, they rise as the vanguard of the socialist cause — disciplined, united, and unbreakable. The mines that once chained them now forge their liberation. The Red Dragon roars with the voice of the miners, and the earth itself trembles with revolution."
@@ -241,14 +239,14 @@
  WAL_total_state_control:0 "Total State Control"
  WAL_total_state_control_desc:0 "Tear down the mansions! Empty the boardrooms! The age of the capitalist oppressor is over! The people of Wales will no longer bleed for the greed of the few. Every factory, every farm, every forge shall be seized in the name of the revolution and administered by the people’s state. From this day forward, Cymru belongs to its workers — the chains of capital lie shattered beneath the Red Dragon’s claws!"
  
- WAL_export_the_revolution:0 "Export the Revolution"
- WAL_export_the_revolution_desc:0 "The Red Dragon will not be content with freedom for Cymru alone. The chains that bind workers across these isles and beyond must be smashed — and Wales will carry the torch of liberation into Scotland, Ireland, and every land that yearns for emancipation! We shall aid uprisings, inspire the comrades, and fan the flames of revolution until the old empires crumble. From Cardiff to Cork and Glasgow to Limerick, the workers will rise — and Wales will stand at their side."
+ WAL_export_the_revolution_idea:0 "Export the Revolution"
+ WAL_export_the_revolution_idea_desc:0 "The Red Dragon will not be content with freedom for Cymru alone. The chains that bind workers across these isles and beyond must be smashed — and Wales will carry the torch of liberation into Scotland, Ireland, and every land that yearns for emancipation! We shall aid uprisings, inspire the comrades, and fan the flames of revolution until the old empires crumble. From Cardiff to Cork and Glasgow to Limerick, the workers will rise — and Wales will stand at their side."
  
  WAL_welsh_internationale:0 "Welsh Internationale"
  WAL_welsh_internationale_desc:0 "To lead an Internationale is to shape thought as well as arms. Welsh theorists, poets, and organizers will craft a living doctrine that adapts Marxist principles to the particular struggles of smaller nations and oppressed peoples. The Welsh Internationale will offer not just weapons and money, but a rallying culture and a doctrine that proves socialism can be forged outside the great powers."
  
- WAL_a_peoples_army:0 "A People's Army"
- WAL_a_peoples_army_desc:0 "The defense of the revolution is no longer the task of a professional elite, but of the people themselves. The Welsh armed forces have been reorganized along class lines, ensuring the loyalty of every soldier to the socialist state. Officers are elected by their comrades, and the values of equality and discipline guide every regiment. This is an army not of conquest, but of protection — the shield of the people’s republic."
+ WAL_a_peoples_army_idea:0 "A People's Army"
+ WAL_a_peoples_army_idea_desc:0 "The defense of the revolution is no longer the task of a professional elite, but of the people themselves. The Welsh armed forces have been reorganized along class lines, ensuring the loyalty of every soldier to the socialist state. Officers are elected by their comrades, and the values of equality and discipline guide every regiment. This is an army not of conquest, but of protection — the shield of the people’s republic."
  
  WAL_soviet_industrial_advisors:0 "Soviet Industrial Advisors"
  WAL_soviet_industrial_advisors_desc:0 "Soviet engineers and economists have arrived to share their expertise, guiding the modernization of Welsh industry. Under their instruction, new factories rise, production increases, and inefficiencies are stamped out. While Wales learns from its eastern comrades, it retains its own identity — building a uniquely Welsh socialism shaped by coal, community, and determination."
@@ -259,36 +257,32 @@
  WAL_socialist_science_program:0 "Socialist Science Program"
  WAL_socialist_science_program_desc:0 "In the new socialist state, science serves humanity — not profit. Researchers and engineers work together in publicly funded institutes dedicated to improving the lives of workers and strengthening national development. Innovation is now a collective effort, guided by purpose rather than competition. The discoveries made in the laboratories of Wales will light the path toward a brighter, fairer future for all."
  
- WAL_communist_wales_prevails:0 "The People’s Path"
- WAL_communist_wales_prevails_desc:0 "The revolution has triumphed. The old chains of oppression have been broken, and the workers of Wales now stand as masters of their own destiny. From the mines to the mills, the people rule in unity — their strength and sacrifice lighting the path for all oppressed nations to follow."
 
  # Fascist Ideas
- WAL_rise_of_the_dragon:0 "Rise of the Dragon"
- WAL_rise_of_the_dragon_desc:0 "The old world has failed. Democracy falters, socialism divides, and foreign influence poisons our soil. Only through discipline and strong leadership can Wales rise above the chaos. Our people long for stability, pride, and greatness — and we will give it to them. Under the Dragon’s shadow, a new empire will rise — forged by will, fire, and the unbreakable strength of Cymru."
+ WAL_rise_of_the_dragon_idea:0 "Rise of the Dragon"
+ WAL_rise_of_the_dragon_idea_desc:0 "The old world has failed. Democracy falters, socialism divides, and foreign influence poisons our soil. Only through discipline and strong leadership can Wales rise above the chaos. Our people long for stability, pride, and greatness — and we will give it to them. Under the Dragon’s shadow, a new empire will rise — forged by will, fire, and the unbreakable strength of Cymru."
  
- WAL_purging_british_influence:0 "Purging British Influence"
- WAL_purging_british_influence_desc:0 "For centuries, British rule sought not only to govern Wales but to erase it — our language silenced, our people shamed, our children made to wear the cursed Welsh Knot for speaking their mother tongue. No more. Those days of humiliation will be avenged through decisive reform and renewal. British officials will be removed from our institutions, their laws undone, their symbols erased. The tongue once punished shall now command, and the Red Dragon shall never bow again to the yoke of foreign dominion"
+ WAL_purging_british_influence_idea:0 "Purging British Influence"
+ WAL_purging_british_influence_idea_desc:0 "For centuries, British rule sought not only to govern Wales but to erase it — our language silenced, our people shamed, our children made to wear the cursed Welsh Knot for speaking their mother tongue. No more. Those days of humiliation will be avenged through decisive reform and renewal. British officials will be removed from our institutions, their laws undone, their symbols erased. The tongue once punished shall now command, and the Red Dragon shall never bow again to the yoke of foreign dominion"
  
- WAL_cymru_for_the_cymry:0 "Cymru for the Cymry"
- WAL_cymru_for_the_cymry_desc:0 "The time has come to place Cymru above all. The nation must stand united — one people, one purpose, one destiny. Every citizen will be called to serve the rebirth of the Welsh state; loyalty, discipline, and devotion will be the virtues that bind us together. The Dragon demands strength, and through unity of will, Wales shall become unbreakable."
+ WAL_cymru_for_the_cymry_idea:0 "Cymru for the Cymry"
+ WAL_cymru_for_the_cymry_idea_desc:0 "The time has come to place Cymru above all. The nation must stand united — one people, one purpose, one destiny. Every citizen will be called to serve the rebirth of the Welsh state; loyalty, discipline, and devotion will be the virtues that bind us together. The Dragon demands strength, and through unity of will, Wales shall become unbreakable."
  
- WAL_revive_the_druidic_order:0 "The Druidic Order"
- WAL_revive_the_druidic_order_desc:0 "The roots of Wales run deep, older than the crown, older than the church, older than empire itself. The wisdom of the druids — long suppressed by foreign powers — will be restored as the foundation of our new national faith. Ceremonies, symbols, and ancient rites shall remind every citizen that our strength is not just of flesh and steel, but of spirit and soil. Cymru’s rebirth will be both political and sacred."
+ WAL_revive_the_druidic_order_idea:0 "The Druidic Order"
+ WAL_revive_the_druidic_order_idea_desc:0 "The roots of Wales run deep, older than the crown, older than the church, older than empire itself. The wisdom of the druids — long suppressed by foreign powers — will be restored as the foundation of our new national faith. Ceremonies, symbols, and ancient rites shall remind every citizen that our strength is not just of flesh and steel, but of spirit and soil. Cymru’s rebirth will be both political and sacred."
  
- WAL_march_on_england:0 "March on England"
- WAL_march_on_england_desc:0 "For centuries foreign crowns have arbitrarily redrawn the map of our homeland, cutting Wales from lands that were once ours by history and blood. Now we will press our lawful claim. Through careful research, diplomatic pressure, and historic petitions presented on the international stage, we will demand the return of territories long held under foreign administration. Cymru seeks what is owed by right—not by the sword, but by law, memory, and the undeniable weight of history."
+ WAL_march_on_england_idea:0 "March on England"
+ WAL_march_on_england_idea_desc:0 "For centuries foreign crowns have arbitrarily redrawn the map of our homeland, cutting Wales from lands that were once ours by history and blood. Now we will press our lawful claim. Through careful research, diplomatic pressure, and historic petitions presented on the international stage, we will demand the return of territories long held under foreign administration. Cymru seeks what is owed by right—not by the sword, but by law, memory, and the undeniable weight of history."
  
- WAL_pact_with_berlin:0 "Pact with Berlin"
- WAL_pact_with_berlin_desc:0 "The great powers of the continent are shifting, and only those with the courage to act will shape the new Europe. Germany has extended its hand, offering us a place within a new continental order built on strength, unity, and destiny. By forging this pact, we align ourselves with a rising power that understands our vision — an unyielding Europe, forged in discipline and purpose. Cymru shall stand beside Berlin as a loyal partner in the forging of a new age.."
+ WAL_pact_with_berlin_idea:0 "Pact with Berlin"
+ WAL_pact_with_berlin_idea_desc:0 "The great powers of the continent are shifting, and only those with the courage to act will shape the new Europe. Germany has extended its hand, offering us a place within a new continental order built on strength, unity, and destiny. By forging this pact, we align ourselves with a rising power that understands our vision — an unyielding Europe, forged in discipline and purpose. Cymru shall stand beside Berlin as a loyal partner in the forging of a new age.."
  
- WAL_dominance_of_celtic_isles:0 "Dominance of the Celtic Isles"
- WAL_dominance_of_celtic_isles_desc:0 "Wales will no longer whisper its demands — we will make them thunder. Mobilize the legions, parade our banners on the coast, and issue our demands with the force of a nation prepared for anything. Let London see that a people united and armed is not to be trifled with."
+ WAL_dominance_of_celtic_isles_idea:0 "Dominance of the Celtic Isles"
+ WAL_dominance_of_celtic_isles_idea_desc:0 "Wales will no longer whisper its demands — we will make them thunder. Mobilize the legions, parade our banners on the coast, and issue our demands with the force of a nation prepared for anything. Let London see that a people united and armed is not to be trifled with."
  
- WAL_the_welsh_war_machine:0 "The Welsh War Machine"
- WAL_the_welsh_war_machine_desc:0 "The Dragon’s fire burns hottest in the forge of war. The nation will be reforged — its people hardened, its industries awakened, its spirit unbreakable. Fields will yield steel, songs will echo like drums of thunder, and the roar of engines will be the voice of a reborn Cymru. A single purpose now drives us: victory."
+ WAL_the_welsh_war_machine_idea:0 "The Welsh War Machine"
+ WAL_the_welsh_war_machine_idea_desc:0 "The Dragon’s fire burns hottest in the forge of war. The nation will be reforged — its people hardened, its industries awakened, its spirit unbreakable. Fields will yield steel, songs will echo like drums of thunder, and the roar of engines will be the voice of a reborn Cymru. A single purpose now drives us: victory."
  
- WAL_fascist_wales_prevails:0 "The Dragon Ascendant"
- WAL_fascist_wales_prevails_desc:0 "Through blood, discipline, and unyielding will, Wales has risen to command its destiny. The weak have fallen, and the Isles now stand united beneath the banner of the Dragon. A new order reigns — forged in fire and bound by strength. Cymru stands eternal."
 
  WAL_total_militarization:0 "Total Militarization"
  WAL_total_militarization_desc:0 "Every institution of the Welsh state has been reshaped in the image of the military. Schools, factories, and government offices alike operate under the principles of discipline, loyalty, and efficiency. The economy is directed toward the production of arms and infrastructure vital to national defense. Citizens are trained from an early age to serve — whether in uniform, industry, or administration — forging a society united in purpose and ready for war. The line between soldier and civilian has blurred; Wales itself has become a nation in arms."
@@ -300,29 +294,29 @@
  WAL_english_conquest_spirit_desc:0 "For too long, England stood as the unchallenged master of these isles, suppressing the cultures and freedoms of its neighbors. Now, the tide has turned. The armies of Wales march with resolve, driven by the conviction that history must be set right. Every soldier knows the weight of their cause — not conquest for conquest’s sake, but retribution for generations of subjugation. As the Dragon advances across the border, the message is clear: the age of English dominance is over, and a new order rises from the west."
  
  # Monarchist Ideas
- WAL_return_of_the_true_king:0 "Return of the True King"
- WAL_return_of_the_true_king_desc:0 "The bards once sang of a king who would return when Wales was free and the land called for its protector once more. That time has come. From hidden lineage and ancient prophecy, a descendant of Owain Glyndŵr steps forth to reclaim the throne. His coronation will not merely crown a man, but awaken the spirit of the nation — the Dragon’s heir returned to guide Cymru into a new golden age."
+ WAL_return_of_the_true_king_idea:0 "Return of the True King"
+ WAL_return_of_the_true_king_idea_desc:0 "The bards once sang of a king who would return when Wales was free and the land called for its protector once more. That time has come. From hidden lineage and ancient prophecy, a descendant of Owain Glyndŵr steps forth to reclaim the throne. His coronation will not merely crown a man, but awaken the spirit of the nation — the Dragon’s heir returned to guide Cymru into a new golden age."
  
- WAL_court_of_cymru:0 "Court of Cymru"
- WAL_court_of_cymru_desc:0 "The return of the crown demands a court worthy of legend. Within the halls of marble and oak, nobles, poets, warriors, and scholars will gather once more beneath the Dragon Banner. This court shall not merely rule, but inspire — a living symbol of Welsh unity and destiny. From its throne, decrees will echo like verses of prophecy, binding past and future in royal splendour. Cymru shall once again be ruled in majesty."
+ WAL_court_of_cymru_idea:0 "Court of Cymru"
+ WAL_court_of_cymru_idea_desc:0 "The return of the crown demands a court worthy of legend. Within the halls of marble and oak, nobles, poets, warriors, and scholars will gather once more beneath the Dragon Banner. This court shall not merely rule, but inspire — a living symbol of Welsh unity and destiny. From its throne, decrees will echo like verses of prophecy, binding past and future in royal splendour. Cymru shall once again be ruled in majesty."
  
- WAL_new_arthurian_age:0 "A New Arthurian Age"
- WAL_new_arthurian_age_desc:0 "From Camelot’s echoes to the halls of Cardiff, the legends of old live once more. The tales of Arthur, Merlin, and the noble knights will no longer belong to story alone, but to the spirit of a people reborn. Guided by honour and destiny, the king’s court shall revive the virtues of the old age — courage, loyalty, and justice — and carry them into a new golden dawn for Cymru."
+ WAL_new_arthurian_age_idea:0 "A New Arthurian Age"
+ WAL_new_arthurian_age_idea_desc:0 "From Camelot’s echoes to the halls of Cardiff, the legends of old live once more. The tales of Arthur, Merlin, and the noble knights will no longer belong to story alone, but to the spirit of a people reborn. Guided by honour and destiny, the king’s court shall revive the virtues of the old age — courage, loyalty, and justice — and carry them into a new golden dawn for Cymru."
  
- WAL_the_celtic_crown:0 "The Celtic Crown"
- WAL_the_celtic_crown_desc:0 "The old prophecies spoke of a king who would unite the Celtic peoples beneath one banner, restoring the harmony that once bound our isles. That time has come. From the highlands of Alba to the green shores of Éire, the ancient crowns shall be gathered into one — the Celtic Crown of Cymru. Under the Dragon Throne, our kindred nations will rise together, guided by shared heritage, faith, and destiny. The bards will call this the age when the Celts became one people once more."
+ WAL_the_celtic_crown_idea:0 "The Celtic Crown"
+ WAL_the_celtic_crown_idea_desc:0 "The old prophecies spoke of a king who would unite the Celtic peoples beneath one banner, restoring the harmony that once bound our isles. That time has come. From the highlands of Alba to the green shores of Éire, the ancient crowns shall be gathered into one — the Celtic Crown of Cymru. Under the Dragon Throne, our kindred nations will rise together, guided by shared heritage, faith, and destiny. The bards will call this the age when the Celts became one people once more."
  
- WAL_a_kings_army:0 "A King's Army"
- WAL_a_kings_army_desc:0 "From the mists of legend to the fields of battle, the King’s Army shall embody the spirit of Cymru itself — fierce as the Dragon, steadfast as the mountains. Each soldier will swear their oath not merely to a flag, but to the sacred destiny of a restored realm. The bards will sing of their courage, and the enemies of the crown will tremble at their approach. The age of noble warriors has returned."
+ WAL_a_kings_army_idea:0 "A King's Army"
+ WAL_a_kings_army_idea_desc:0 "From the mists of legend to the fields of battle, the King’s Army shall embody the spirit of Cymru itself — fierce as the Dragon, steadfast as the mountains. Each soldier will swear their oath not merely to a flag, but to the sacred destiny of a restored realm. The bards will sing of their courage, and the enemies of the crown will tremble at their approach. The age of noble warriors has returned."
  
- WAL_royal_treaty_france:0 "Royal Treaty with France"
- WAL_royal_treaty_france_desc:0 "To secure our crown, we must find allies among Europe’s monarchies. France, long a bastion of royal tradition, recognises our legitimacy and the promise of a stable Celtic realm. Through this treaty, our two kingdoms will cooperate in trade, defence, and diplomacy — bound not only by shared interest, but by the enduring fellowship of kings."
+ WAL_royal_treaty_france_idea:0 "Royal Treaty with France"
+ WAL_royal_treaty_france_idea_desc:0 "To secure our crown, we must find allies among Europe’s monarchies. France, long a bastion of royal tradition, recognises our legitimacy and the promise of a stable Celtic realm. Through this treaty, our two kingdoms will cooperate in trade, defence, and diplomacy — bound not only by shared interest, but by the enduring fellowship of kings."
  
- WAL_restoring_marcher_borders:0 "Restoring the Marcher Borders"
- WAL_restoring_marcher_borders_desc:0 "History may have erased the borders of old Wales, but the crown remembers. The Marcher lands, taken in the age of conquest, are bound to Cymru by heritage and divine right. Under royal command, we will move to restore our ancient frontier — a border defined not by empire, but by destiny. The age of rightful rule returns to the valleys and hills that once bore the Dragon’s mark."
+ WAL_restoring_marcher_borders_idea:0 "Restoring the Marcher Borders"
+ WAL_restoring_marcher_borders_idea_desc:0 "History may have erased the borders of old Wales, but the crown remembers. The Marcher lands, taken in the age of conquest, are bound to Cymru by heritage and divine right. Under royal command, we will move to restore our ancient frontier — a border defined not by empire, but by destiny. The age of rightful rule returns to the valleys and hills that once bore the Dragon’s mark."
  
- WAL_britannias_true_heir:0 "Britannia's True Heir"
- WAL_britannias_true_heir_desc:0 "When the kings of old fell and the land was divided, prophecy foretold that a true heir would rise from the west — crowned beneath the Dragon’s wings to restore unity to the Isles. That prophecy has come to pass. The false crowns of London will fade, and the rightful sovereign of Britannia shall reign from Cymru, where honour, blood, and destiny converge."
+ WAL_britannias_true_heir_idea:0 "Britannia's True Heir"
+ WAL_britannias_true_heir_idea_desc:0 "When the kings of old fell and the land was divided, prophecy foretold that a true heir would rise from the west — crowned beneath the Dragon’s wings to restore unity to the Isles. That prophecy has come to pass. The false crowns of London will fade, and the rightful sovereign of Britannia shall reign from Cymru, where honour, blood, and destiny converge."
  
  WAL_celtic_union_spirit:0 "Celtic Union"
  WAL_celtic_union_spirit_desc:0 "Through diplomacy, shared heritage, and royal vision, the Celtic nations have united under one crown. Centuries of division and foreign dominance have finally given way to a new era of harmony and mutual strength. In this union, the kingdoms of Wales, Scotland, and Ireland stand together as brothers once more — each distinct, yet bound by history, culture, and faith in the monarchy. Under the guidance of the Welsh crown, the Celtic peoples have reclaimed their dignity and purpose, forging a realm that stands proud and sovereign in the face of a changing world."
@@ -330,8 +324,6 @@
  WAL_rightful_heir_of_britain:0 "Rightful Heir of Britain"
  WAL_rightful_heir_of_britain_desc:0 "Through diplomacy, shared heritage, and royal vision, the Celtic nations have united under one crown. Centuries of division and foreign dominance have finally given way to a new era of harmony and mutual strength. In this union, the kingdoms of Wales, Scotland, and Ireland stand together as brothers once more — each distinct, yet bound by history, culture, and faith in the monarchy. Under the guidance of the Welsh crown, the Celtic peoples have reclaimed their dignity and purpose, forging a realm that stands proud and sovereign in the face of a changing world."
  
- WAL_monarchist_wales_prevails:0 "The Dragon Ascendant"
- WAL_monarchist_wales_prevails_desc:0 "Through blood, discipline, and unyielding will, Wales has risen to command its destiny. The weak have fallen, and the Isles now stand united beneath the banner of the Dragon. A new order reigns — forged in fire and bound by strength. Cymru stands eternal."
 
  # General Ideas
  WAL_welsh_culture:0 "Welsh Cultural Pride"
@@ -341,26 +333,26 @@
  WAL_communist_agitation_desc:0 "Communist agents are stirring up unrest among the population."
 
   # UK Reunion Ideas
- WAL_economic_integration:0 "Economic Integration"
- WAL_economic_integration_desc:0 "Welsh economy is integrated with British imperial trade networks."
+ WAL_economic_integration_idea:0 "Economic Integration"
+ WAL_economic_integration_idea_desc:0 "Welsh economy is integrated with British imperial trade networks."
  
- WAL_military_cooperation:0 "Military Cooperation with Britain"
- WAL_military_cooperation_desc:0 "British military advisors train and equip Welsh forces."
+ WAL_military_cooperation_idea:0 "Military Cooperation with Britain"
+ WAL_military_cooperation_idea_desc:0 "British military advisors train and equip Welsh forces."
  
  WAL_dominion_status:0 "British Dominion"
  WAL_dominion_status_desc:0 "Wales is a self-governing dominion within the British Empire."
  
- WAL_royal_navy_protection:0 "Royal Navy Protection"
- WAL_royal_navy_protection_desc:0 "The Royal Navy defends Welsh waters and shipping lanes."
+ WAL_royal_navy_protection_idea:0 "Royal Navy Protection"
+ WAL_royal_navy_protection_idea_desc:0 "The Royal Navy defends Welsh waters and shipping lanes."
  
- WAL_imperial_resources:0 "Imperial Resource Access"
- WAL_imperial_resources_desc:0 "Wales has access to resources from across the British Empire."
+ WAL_imperial_resources_idea:0 "Imperial Resource Access"
+ WAL_imperial_resources_idea_desc:0 "Wales has access to resources from across the British Empire."
  
- WAL_commonwealth_arsenal:0 "Commonwealth Arsenal"
- WAL_commonwealth_arsenal_desc:0 "British factories supply Welsh armed forces with equipment."
+ WAL_commonwealth_arsenal_idea:0 "Commonwealth Arsenal"
+ WAL_commonwealth_arsenal_idea_desc:0 "British factories supply Welsh armed forces with equipment."
  
- WAL_united_we_stand:0 "United We Stand"
- WAL_united_we_stand_desc:0 "Wales and Britain stand united against all threats."
+ WAL_united_we_stand_idea:0 "United We Stand"
+ WAL_united_we_stand_idea_desc:0 "Wales and Britain stand united against all threats."
  
  # Economic focuses
  WAL_fortress_wales_initiative:0 "Fortress Wales Initiative"

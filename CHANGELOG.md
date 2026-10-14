@@ -10,6 +10,23 @@ Every release gets a generated alliterative code name: an adjective plus a creat
 - **Patch releases keep their parent's name**: 0.2.0 and 0.2.1 are both Bold Bendigeidfran.
 - The words for each letter come from a hash of the version, so a version always gets the same name.
 
+## [0.2.1] "Bold Bendigeidfran" - Unreleased
+
+A clean-up patch: fixes to installation, localisation and text. No gameplay changes.
+
+### Fixed
+
+- **Installing from GitHub.** `The_Dragon_Rises.mod` pointed to a folder that doesn't exist, so the launcher couldn't find the mod. It now points to `mod/TDR-Release`.
+- **Mod thumbnail.** Both mod files referred to a missing `Dragon_rises_logo.png`; they now use `thumbnail.png`.
+- **Mod version and tags.** The mod files now report version 0.2.0 instead of 1.0. Removed the "Wales" and "Celtic" tags, which aren't valid Steam Workshop tags, and added "Events".
+- **Wrong focus names.** 31 national spirits shared their name key with a focus, so some focuses showed the spirit's name instead of their own. For example, *Revive the Druidic Order* appeared as "The Druidic Order". The spirits now have their own keys (ending in `_idea`).
+- **Monarchist finale text.** *Long Live the King* (the last Monarchist focus) used the Fascist finale's name and description by mistake. It now has its own.
+- Removed four duplicate entries for the path-finale focuses.
+
+### Known issues
+
+- 0.2.0 and 0.2.1 have not yet been tested in game.
+
 ## [0.2.0] "Bold Bendigeidfran" - Unreleased
 
 This release makes every political path playable, fixes many features that were silently broken, and brings Wales's power level back in line with a single-state nation.
