@@ -187,6 +187,12 @@ HOI4-THE-DRAGON-RISES/
 - Custom music and sound
 - Steam Workshop integration
 
+## Development
+
+- Run `python3 tools/check_mod.py` before committing. It checks brace balance, decision structure, references to missing ideas/decisions/events/sprites, localisation coverage and file-name case. It also runs automatically on every push via GitHub Actions.
+- Install the recommended **CWTools** VS Code extension (VS Code will prompt you) for full validation against vanilla HOI4.
+- Test in game with the `-debug` launch option and check `Documents/Paradox Interactive/Hearts of Iron IV/logs/error.log`.
+
 ## Contributing
 
 Bug reports and feedback are welcome! Please report issues with:

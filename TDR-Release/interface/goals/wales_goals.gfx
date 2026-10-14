@@ -1,2 +1,3 @@
-	spriteType = { name = "GFX_focus_WAL_A_new_dawn_for_Cymru" texturefile = "gfx/goals/A_new_dawn_for_Cymru.dds" } 
-    
+spriteTypes = {
+	spriteType = { name = "GFX_focus_WAL_A_new_dawn_for_Cymru" texturefile = "gfx/goals/A_new_dawn_for_cymru.dds" }
+}

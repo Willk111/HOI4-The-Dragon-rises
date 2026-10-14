@@ -192,6 +192,10 @@
  
  WAL_coal_mining_tradition:0 "Coal Mining Tradition"
  WAL_coal_mining_tradition_desc:0 "Coal and courage — the twin pillars upon which Wales built its industry and its soul."
+ WAL_industrial_powerhouse:0 "Industrial Powerhouse"
+ WAL_industrial_powerhouse_desc:0 "The pits and furnaces of the valleys have been transformed into a modern industrial heartland. Welsh steel, Welsh coal and Welsh factories now supply the nation's every need."
+ WAL_fortress_wales:0 "Fortress Wales"
+ WAL_fortress_wales_desc:0 "From the mountains of Eryri to the cliffs of Pembroke, every pass, port and valley is ringed with bunkers, guns and radar. Any invader will bleed for every yard of Welsh soil."
  
  # Democratic Ideas
  WAL_a_democratic_mandate:0 "Democratic Mandate"
@@ -519,6 +523,62 @@
  wales_events.10.t:0 "Communist Revolution in Britain"
  wales_events.10.d:0 "The spark ignited by Welsh agitators has erupted into open revolt. Workers in Britain have taken up arms, declaring their intent to overthrow the old order. Red flags now fly over factories and government buildings alike."
  wales_events.10.a:0 "The revolution triumphs!"
+
+ wales_path.1.t:0 "Which Way for Cymru?"
+ wales_path.1.d:0 "Independence has been won, but what kind of nation will Wales become? In the chapels and lodges of the valleys, the cafés of Cardiff and the farmhouses of the north, Welsh men and women argue over the future. The miners talk of revolution, the nationalists of a Celtic destiny, the old families of the line of Glyndŵr, and the cautious of returning to the safety of Britain. The choice we make now will shape everything that follows."
+ wales_path.1.a:0 "Wales will be a free democracy."
+ wales_path.1.b:0 "The miners' lodges call for revolution."
+ wales_path.1.c:0 "The nationalists demand a Wales reborn in strength."
+ wales_path.1.e:0 "Rally to the heir of Glyndŵr."
+ wales_path.1.f:0 "We are stronger together with Britain."
+ wales_path.2.t:0 "The Red Flag over Cardiff"
+ wales_path.2.d:0 "A general strike called by the South Wales Miners' Federation has paralysed the country. As pits, docks and railways fell silent, workers' committees took control of the towns one by one. Today the government resigned, and the Revolutionary Council has proclaimed the People's Republic of Cymru."
+ wales_path.2.a:0 "All power to the workers!"
+ wales_path.3.t:0 "The March on Cardiff"
+ wales_path.3.d:0 "Columns of uniformed nationalists poured down the valleys overnight and converged on the capital. With the police standing aside and the army refusing to intervene, the government had no choice but to hand power to Cynan Coch and his movement. Parliament has been suspended indefinitely."
+ wales_path.3.a:0 "The Dragon rises!"
+
+ wales_reunion.1.t:0 "Wales Seeks Reunion"
+ wales_reunion.1.d:0 "A delegation from Cardiff has arrived in Westminster. The Welsh government, wary of standing alone in an increasingly dangerous world, proposes to rejoin the United Kingdom as a self-governing Dominion, trading a measure of its independence for the protection of the Crown and the Royal Navy."
+ wales_reunion.1.a:0 "Welcome them back into the fold."
+ wales_reunion.1.b:0 "Wales made its choice. Let it live with it."
+ wales_reunion.2.t:0 "London Welcomes Our Return"
+ wales_reunion.2.d:0 "Westminster has received our delegation warmly. The negotiations over the terms of our Dominion status can now begin in earnest."
+ wales_reunion.2.a:0 "A new chapter for Wales and Britain."
+ wales_reunion.3.t:0 "London Rebuffs Us"
+ wales_reunion.3.d:0 "The British government has coldly dismissed our delegation. Our diplomats will keep pressing, but the humiliation has not gone unnoticed at home."
+ wales_reunion.3.a:0 "They will come round in time."
+
+ wales_monarchy.1.t:0 "The Celtic Crown Offers Union"
+ wales_monarchy.1.d:0 "Envoys of the King of Wales have arrived bearing a proposal: that our nation join a union of the Celtic peoples under the Welsh crown. They speak of shared heritage and common enemies, and promise that our laws and customs will be respected. Accepting would bind our fate to Cardiff."
+ wales_monarchy.1.a:0 "We accept the protection of the Celtic Crown."
+ wales_monarchy.1.b:0 "We bow to no foreign king."
+ wales_monarchy.2.t:0 "Our Offer Is Accepted"
+ wales_monarchy.2.d:0 "Our Celtic cousins have accepted the protection of the Welsh crown. Another step towards a united Celtic realm has been taken."
+ wales_monarchy.2.a:0 "The Celtic nations draw together."
+ wales_monarchy.3.t:0 "Our Offer Is Refused"
+ wales_monarchy.3.d:0 "Our envoys have returned empty-handed. The offer of union has been rejected, at least for now."
+ wales_monarchy.3.a:0 "Perhaps another time."
+
+ # ================================
+ # NEW DECISIONS
+ # ================================
+ WAL_establish_workers_councils:0 "Establish Workers' Councils"
+ WAL_establish_workers_councils_desc:0 "Hand control of the pits and factories to councils elected by the workers themselves."
+ WAL_export_revolution_scotland:0 "Aid the Red Clydeside"
+ WAL_export_revolution_scotland_desc:0 "Smuggle funds, organisers and literature to the socialist movements of Scotland."
+ WAL_export_revolution_ireland:0 "Aid the Irish Workers"
+ WAL_export_revolution_ireland_desc:0 "Support the Irish labour movement in its struggle against capital."
+ WAL_purge_dissidents:0 "Purge Dissidents"
+ WAL_purge_dissidents_desc:0 "Root out those still loyal to London and to the old parties."
+ WAL_strengthen_druidic_order:0 "Strengthen the Druidic Order"
+ WAL_strengthen_druidic_order_desc:0 "Grant the Order new lands, new ceremonies and a place at the heart of national life."
+ WAL_crown_the_king:0 "Crown the King"
+ WAL_crown_the_king_desc:0 "Place the heir of Glyndŵr upon the throne of Wales and dissolve the old parliament."
+ WAL_diplomatic_unity_ireland:0 "Offer Union to Ireland"
+ WAL_diplomatic_unity_ireland_desc:0 "Invite Ireland to join a union of the Celtic peoples under the Welsh crown. Ireland must think well of us for the offer to be heard."
+ WAL_diplomatic_unity_scotland:0 "Offer Union to Scotland"
+ WAL_diplomatic_unity_scotland_desc:0 "Invite Scotland to join a union of the Celtic peoples under the Welsh crown. Scotland must think well of us for the offer to be heard."
 
  # ================================
  # VICTORY POINTS

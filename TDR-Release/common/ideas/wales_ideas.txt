@@ -47,9 +47,11 @@ ideas = {
             allowed = { original_tag = WAL }
             picture = generic_production_bonus
             modifier = {
-                production_factory_max_efficiency_factor = 0.15
+                production_factory_max_efficiency_factor = 0.10
                 industrial_capacity_factory = 0.10
                 line_change_production_efficiency_factor = 0.10
+                production_speed_buildings_factor = 0.05
+                local_resources_factor = 0.10
             }
         }
 
@@ -69,7 +71,7 @@ ideas = {
             picture = generic_democratic_drift_bonus
             
             modifier = {
-                political_power_gain = 0.50
+                political_power_gain = 0.15
                 stability_factor = 0.05
                 democratic_drift = 0.05
             }
@@ -87,8 +89,9 @@ ideas = {
             picture = generic_parliament
             
             modifier = {
-                political_power_gain = 0.10
-                stability_factor = 0.05
+                political_power_gain = 0.20
+                stability_factor = 0.10
+                democratic_drift = 0.05
                 industrial_capacity_factory = 0.05
             }
         }
@@ -123,9 +126,9 @@ ideas = {
             picture = generic_foreign_capital
             
             modifier = {
-                production_speed_buildings_factor = 0.15
-                industrial_capacity_factory = 0.10
-                industrial_capacity_dockyard = 0.10
+                production_speed_buildings_factor = 0.10
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
             }
         }
         
@@ -141,8 +144,8 @@ ideas = {
             picture = generic_navy_bonus
             
             modifier = {
-                production_speed_dockyard_factor = 0.15
-                industrial_capacity_dockyard = 0.15
+                production_speed_dockyard_factor = 0.10
+                industrial_capacity_dockyard = 0.10
                 convoy_escort_efficiency = 0.10
                 trade_opinion_factor = 0.25
             }
@@ -178,7 +181,9 @@ ideas = {
             
             modifier = {
                 production_speed_buildings_factor = 0.10
-                local_resources_factor = 0.15
+                production_factory_max_efficiency_factor = 0.05
+                production_speed_dockyard_factor = 0.05
+                local_resources_factor = 0.10
             }
         }
         
@@ -216,9 +221,9 @@ ideas = {
             picture = generic_communist_revolutionary_wave
             
             modifier = {
+                political_power_gain = 0.15
                 stability_factor = -0.05
-                political_power_gain = 0.75
-                communism_drift = 0.10
+                communism_drift = 0.05
             }
         }
         
@@ -291,7 +296,8 @@ ideas = {
             
             modifier = {
                 production_factory_max_efficiency_factor = 0.15
-                industrial_capacity_factory = 0.20
+                industrial_capacity_factory = 0.15
+                production_speed_dockyard_factor = 0.05
                 stability_factor = -0.05
                 consumer_goods_factor = -0.05
             }
@@ -326,9 +332,12 @@ ideas = {
             picture = generic_communism_drift_bonus
             
             modifier = {
-                stability_factor = 0.10
                 political_power_gain = 0.15
+                stability_factor = 0.10
+                communism_drift = 0.05
                 faction_trade_opinion_factor = 0.30
+                send_volunteer_divisions_required = -0.50
+                send_volunteers_tension = -0.50
             }
         }
         
@@ -364,7 +373,7 @@ ideas = {
             
             modifier = {
                 production_speed_arms_factory_factor = 0.10
-                industrial_capacity_factory = 0.10
+                industrial_capacity_factory = 0.05
                 research_speed_factor = 0.05
             }
         }
@@ -381,7 +390,10 @@ ideas = {
             picture = generic_manpower_bonus
             
             modifier = {
-                conscription_factor = 0.10
+                army_attack_factor = 0.05
+                conscription = 0.03
+                conscription_factor = 0.05
+                mobilization_speed = 0.10
                 army_morale_factor = 0.10
                 training_time_army_factor = -0.15
             }
@@ -400,7 +412,6 @@ ideas = {
             
             modifier = {
                 research_speed_factor = 0.08
-                industrial_capacity_factory = 0.05
             }
         }
         
@@ -420,9 +431,9 @@ ideas = {
             picture = generic_fascism_drift_bonus
             
             modifier = {
-                political_power_gain = 1.00
+                political_power_gain = 0.15
                 stability_factor = 0.05
-                fascism_drift = 0.10
+                fascism_drift = 0.05
             }
         }
         
@@ -438,8 +449,8 @@ ideas = {
             picture = generic_purge
             
             modifier = {
-                stability_factor = -0.05
-                political_power_gain = 0.75
+                political_power_gain = 0.25
+                fascism_drift = 0.05
                 war_support_factor = 0.10
                 drift_defence_factor = 0.30
             }
@@ -496,7 +507,10 @@ ideas = {
             modifier = {
                 army_core_attack_factor = 0.10
                 army_core_defence_factor = 0.10
+                conscription = 0.03
                 conscription_factor = 0.05
+                stability_factor = 0.05
+                war_support_factor = 0.05
             }
         }
         
@@ -513,7 +527,7 @@ ideas = {
             
             modifier = {
                 production_speed_arms_factory_factor = 0.10
-                industrial_capacity_factory = 0.10
+                industrial_capacity_factory = 0.05
                 research_speed_factor = 0.05
             }
         }
@@ -568,10 +582,12 @@ ideas = {
             picture = generic_war_preparation
             
             modifier = {
-                production_speed_arms_factory_factor = 0.20
-                industrial_capacity_factory = 0.15
-                conscription_factor = 0.10
-                consumer_goods_factor = -0.05
+                production_speed_arms_factory_factor = 0.15
+                industrial_capacity_factory = 0.10
+                line_change_production_efficiency_factor = 0.10
+                production_factory_start_efficiency_factor = 0.10
+                conscription_factor = 0.05
+                army_speed_factor = 0.05
             }
         }
         
@@ -588,9 +604,10 @@ ideas = {
             
             modifier = {
                 stability_factor = 0.10
-                war_support_factor = 0.15
-                army_org_factor = 0.10
-                conscription = 0.05
+                war_support_factor = 0.10
+                army_org_factor = 0.05
+                production_speed_dockyard_factor = 0.10
+                justify_war_goal_time = -0.25
             }
         }
         
@@ -606,9 +623,9 @@ ideas = {
             picture = generic_morale_bonus
             
             modifier = {
-                offence = 0.15
+                offence = 0.10
                 breakthrough_factor = 0.10
-                army_morale_factor = 0.15
+                army_morale_factor = 0.10
             }
         }
         
@@ -628,7 +645,7 @@ ideas = {
             picture = generic_monarchist_idea
             
             modifier = {
-                political_power_gain = 0.50
+                political_power_gain = 0.15
                 stability_factor = 0.10
                 war_support_factor = 0.05
             }
@@ -646,7 +663,9 @@ ideas = {
             picture = generic_pp_unity_bonus
             
             modifier = {
-                consumer_goods_factor = -0.05
+                political_power_gain = 0.20
+                stability_factor = 0.10
+                war_support_factor = 0.05
                 political_advisor_cost_factor = -0.10
                 trade_laws_cost_factor = -0.25
             }
@@ -701,8 +720,11 @@ ideas = {
             picture = generic_manpower_bonus
             
             modifier = {
+                conscription = 0.02
+                stability_factor = 0.05
+                war_support_factor = 0.05
+                army_morale_factor = 0.05
                 army_org_factor = 0.05
-                army_attack_factor = 0.05
                 cavalry_attack_factor = 0.10
                 experience_gain_army_factor = 0.10
             }
@@ -758,7 +780,10 @@ ideas = {
             modifier = {
                 army_core_attack_factor = 0.10
                 army_core_defence_factor = 0.10
-                conscription_factor = 0.10
+                conscription_factor = 0.05
+                war_support_factor = 0.10
+                justify_war_goal_time = -0.20
+                annex_cost_factor = -0.25
             }
         }
         
@@ -774,11 +799,12 @@ ideas = {
             picture = generic_victors_of_ww1
             
             modifier = {
-                stability_factor = 0.15
-                war_support_factor = 0.10
+                stability_factor = 0.10
+                war_support_factor = 0.05
                 political_power_gain = 0.20
-                army_org_factor = 0.10
-                industrial_capacity_factory = 0.15
+                improve_relations_maintain_cost_factor = -0.30
+                faction_trade_opinion_factor = 0.25
+                industrial_capacity_factory = 0.10
             }
         }
         
@@ -794,11 +820,12 @@ ideas = {
             picture = generic_morale_bonus
             
             modifier = {
-                war_support_factor = 0.20
+                army_core_attack_factor = 0.10
+                army_core_defence_factor = 0.10
+                conscription_factor = 0.10
+                war_support_factor = 0.15
                 stability_factor = 0.10
-                army_morale_factor = 0.15
-                offence = 0.15
-                army_org_factor = 0.10
+                army_morale_factor = 0.10
             }
         }
         
@@ -807,7 +834,7 @@ ideas = {
         # ================================
 
         WAL_economic_integration = {
-            picture = GFX_idea_generic_production_bonus
+            picture = generic_production_bonus
             
             allowed = { original_tag = WAL }
             
@@ -818,19 +845,19 @@ ideas = {
         }
         
         WAL_military_cooperation = {
-            picture = GFX_idea_generic_army_war_college
+            picture = generic_army_war_college
             
             allowed = { original_tag = WAL }
             
             modifier = {
                 army_org_factor = 0.05
-                training_time_factor = -0.10
+                training_time_army_factor = -0.10
                 army_morale_factor = 0.05
             }
         }
         
         WAL_dominion_status = {
-            picture = GFX_idea_generic_victors_of_ww1
+            picture = generic_victors_of_ww1
             
             allowed = { original_tag = WAL }
             
@@ -842,7 +869,7 @@ ideas = {
         }
         
         WAL_royal_navy_protection = {
-            picture = GFX_idea_generic_navy_bonus
+            picture = generic_navy_bonus
             
             allowed = { original_tag = WAL }
             
@@ -854,30 +881,35 @@ ideas = {
         }
         
         WAL_imperial_resources = {
-            picture = GFX_idea_generic_goods_red_bonus
+            picture = generic_goods_red_bonus
             
             allowed = { original_tag = WAL }
             
             modifier = {
-                local_resources_factor = 0.20
-                production_speed_buildings_factor = 0.10
+                consumer_goods_factor = -0.05
+                production_speed_industrial_complex_factor = 0.10
+                local_resources_factor = 0.15
+                production_speed_buildings_factor = 0.05
             }
         }
         
         WAL_commonwealth_arsenal = {
-            picture = GFX_idea_generic_production_bonus
+            picture = generic_production_bonus
             
             allowed = { original_tag = WAL }
             
             modifier = {
-                production_speed_arms_factory_factor = 0.15
-                industrial_capacity_factory = 0.10
+                army_org_factor = 0.05
+                training_time_army_factor = -0.10
+                army_morale_factor = 0.05
+                production_speed_arms_factory_factor = 0.10
+                industrial_capacity_factory = 0.05
                 lend_lease_tension = -0.25
             }
         }
         
         WAL_united_we_stand = {
-            picture = GFX_idea_generic_allies_build_infantry
+            picture = generic_allies_build_infantry
             
             allowed = { original_tag = WAL }
             
@@ -887,6 +919,28 @@ ideas = {
                 army_core_attack_factor = 0.05
                 army_core_defence_factor = 0.05
                 autonomy_gain = 0.5
+            }
+        }
+
+        # ================================
+        # INDUSTRIAL & FORTRESS IDEAS
+        # ================================
+
+        WAL_fortress_wales = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+
+            picture = generic_fortify_the_borders
+
+            modifier = {
+                army_core_defence_factor = 0.10
+                max_dig_in_factor = 0.15
+                dig_in_speed_factor = 0.15
             }
         }
 

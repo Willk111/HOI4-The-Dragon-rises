@@ -1,0 +1,284 @@
+add_namespace = wales_path
+add_namespace = wales_reunion
+add_namespace = wales_monarchy
+add_namespace = wales_events
+
+# ================================
+# CHOOSING A PATH
+# ================================
+
+# Fired by WAL_choose_our_path. The flag set here unlocks one path's first focus.
+country_event = {
+    id = wales_path.1
+    title = wales_path.1.t
+    desc = wales_path.1.d
+    picture = GFX_report_event_generic_rally
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_path.1.a
+        ai_chance = { base = 40 }
+        set_country_flag = WAL_path_democratic
+        add_popularity = { ideology = democratic popularity = 0.05 }
+        add_stability = 0.05
+    }
+
+    option = {
+        name = wales_path.1.b
+        ai_chance = { base = 15 }
+        set_country_flag = WAL_path_communist
+        add_popularity = { ideology = communism popularity = 0.25 }
+    }
+
+    option = {
+        name = wales_path.1.c
+        ai_chance = { base = 15 }
+        set_country_flag = WAL_path_fascist
+        add_popularity = { ideology = fascism popularity = 0.25 }
+    }
+
+    option = {
+        name = wales_path.1.e
+        ai_chance = { base = 15 }
+        set_country_flag = WAL_path_monarchist
+        add_popularity = { ideology = neutrality popularity = 0.25 }
+    }
+
+    option = {
+        name = wales_path.1.f
+        ai_chance = { base = 15 }
+        set_country_flag = WAL_path_reunion
+    }
+}
+
+# Fired by WAL_red_dragon_rising when Wales is not yet communist
+country_event = {
+    id = wales_path.2
+    title = wales_path.2.t
+    desc = wales_path.2.d
+    picture = GFX_report_event_generic_rally
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_path.2.a
+        set_politics = {
+            ruling_party = communism
+            elections_allowed = no
+        }
+        add_popularity = { ideology = communism popularity = 0.25 }
+        add_stability = -0.10
+        add_war_support = 0.05
+    }
+}
+
+# Fired by WAL_rise_of_the_dragon when Wales is not yet fascist
+country_event = {
+    id = wales_path.3
+    title = wales_path.3.t
+    desc = wales_path.3.d
+    picture = GFX_report_event_generic_rally
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_path.3.a
+        set_politics = {
+            ruling_party = fascism
+            elections_allowed = no
+        }
+        add_popularity = { ideology = fascism popularity = 0.25 }
+        add_stability = -0.10
+        add_war_support = 0.10
+    }
+}
+
+# ================================
+# UK REUNION
+# ================================
+
+# Sent to the UK by the WAL_negotiate_reunion focus (FROM = Wales)
+country_event = {
+    id = wales_reunion.1
+    title = wales_reunion.1.t
+    desc = wales_reunion.1.d
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_reunion.1.a
+        ai_chance = { base = 95 }
+        FROM = { country_event = { id = wales_reunion.2 days = 1 } }
+    }
+
+    option = {
+        name = wales_reunion.1.b
+        ai_chance = { base = 5 }
+        add_opinion_modifier = { target = FROM modifier = large_decrease }
+        FROM = { country_event = { id = wales_reunion.3 days = 1 } }
+    }
+}
+
+# Wales: London welcomes us back
+country_event = {
+    id = wales_reunion.2
+    title = wales_reunion.2.t
+    desc = wales_reunion.2.d
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_reunion.2.a
+        add_political_power = 50
+        add_stability = 0.05
+    }
+}
+
+# Wales: London rebuffs us
+country_event = {
+    id = wales_reunion.3
+    title = wales_reunion.3.t
+    desc = wales_reunion.3.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_reunion.3.a
+        add_stability = -0.05
+        add_political_power = 25
+    }
+}
+
+# ================================
+# CELTIC CROWN
+# ================================
+
+# Sent to Ireland or Scotland by WAL_diplomatic_unity_* (FROM = Wales)
+country_event = {
+    id = wales_monarchy.1
+    title = wales_monarchy.1.t
+    desc = wales_monarchy.1.d
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_monarchy.1.a
+        ai_chance = {
+            base = 25
+            modifier = {
+                factor = 2
+                has_opinion = { target = FROM value > 75 }
+            }
+            modifier = {
+                factor = 0
+                is_in_faction = yes
+            }
+        }
+        FROM = {
+            puppet = ROOT
+            country_event = { id = wales_monarchy.2 days = 1 }
+        }
+    }
+
+    option = {
+        name = wales_monarchy.1.b
+        ai_chance = { base = 75 }
+        FROM = { country_event = { id = wales_monarchy.3 days = 1 } }
+    }
+}
+
+# Wales: the offer was accepted
+country_event = {
+    id = wales_monarchy.2
+    title = wales_monarchy.2.t
+    desc = wales_monarchy.2.d
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_monarchy.2.a
+        add_stability = 0.05
+        add_political_power = 50
+    }
+}
+
+# Wales: the offer was refused
+country_event = {
+    id = wales_monarchy.3
+    title = wales_monarchy.3.t
+    desc = wales_monarchy.3.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_monarchy.3.a
+        add_political_power = 25
+    }
+}
+
+# ================================
+# FLAVOUR (fired by decisions)
+# ================================
+
+# WAL_export_revolution_scotland
+country_event = {
+    id = wales_events.1
+    title = wales_events.1.t
+    desc = wales_events.1.d
+    picture = GFX_report_event_generic_rally
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_events.1.a
+    }
+}
+
+# WAL_export_revolution_ireland
+country_event = {
+    id = wales_events.2
+    title = wales_events.2.t
+    desc = wales_events.2.d
+    picture = GFX_report_event_generic_rally
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_events.2.a
+    }
+}
+
+# WAL_crown_the_king
+country_event = {
+    id = wales_events.5
+    title = wales_events.5.t
+    desc = wales_events.5.d
+    picture = GFX_report_event_generic_rally
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_events.5.a
+    }
+}
+
+# WAL_export_revolution_britain
+country_event = {
+    id = wales_events.10
+    title = wales_events.10.t
+    desc = wales_events.10.d
+    picture = GFX_report_event_generic_rally
+
+    is_triggered_only = yes
+
+    option = {
+        name = wales_events.10.a
+    }
+}
